@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:background="@drawable/bg_guide_intro" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ViewFlipper android:id="@+id/intro_view_flipper" android:layout_width="match_parent" android:layout_height="match_parent" android:inAnimation="@android:anim/fade_in" android:outAnimation="@android:anim/fade_out" android:layout_above="@+id/next_btn_layout" android:autoStart="false">
+        <LinearLayout android:orientation="vertical" android:id="@+id/input_style_selector_view" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="@integer/guide_intro_page_weight_up">
+                <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/guide_intro_selector_title_text_size" android:textColor="#ffffff" android:gravity="left" android:paddingLeft="@dimen/guide_intro_page_title_padding_left" android:paddingTop="@dimen/guide_intro_page_title_padding_top" android:paddingBottom="@dimen/guide_intro_page_title_padding_top" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/guide_intro_select_input_style_title"/>
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+                    <com.cootek.smartinput5.p066ui.guideintro.InputStyleSelector android:id="@+id/input_style_selector_1" android:paddingLeft="@dimen/input_style_selector_padding_side" android:paddingRight="@dimen/input_style_selector_padding_middle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1"/>
+                    <com.cootek.smartinput5.p066ui.guideintro.InputStyleSelector android:id="@+id/input_style_selector_2" android:paddingLeft="@dimen/input_style_selector_padding_middle" android:paddingRight="@dimen/input_style_selector_padding_side" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+                    <com.cootek.smartinput5.p066ui.guideintro.InputStyleSelector android:id="@+id/input_style_selector_3" android:paddingLeft="@dimen/input_style_selector_padding_side" android:paddingRight="@dimen/input_style_selector_padding_middle" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1"/>
+                    <com.cootek.smartinput5.p066ui.guideintro.InputStyleSelector android:id="@+id/input_style_selector_4" android:paddingLeft="@dimen/input_style_selector_padding_middle" android:paddingRight="@dimen/input_style_selector_padding_side" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/skin_selector_view" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="@integer/guide_intro_page_weight_up">
+                <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/guide_intro_selector_title_text_size" android:textColor="#ffffff" android:gravity="left" android:paddingLeft="@dimen/guide_intro_page_title_padding_left" android:paddingTop="@dimen/guide_intro_page_title_padding_top" android:paddingBottom="@dimen/guide_intro_page_title_padding_top" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/guide_intro_select_skin_title"/>
+                <com.cootek.smartinput5.p066ui.guideintro.ImageSelector android:id="@+id/black_skin_selector" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="2" xmlns:ns1="http://schemas.android.com/apk/res/com.emoji.keyboard.touchpal" ns1:image="@drawable/skin_preview" xmlns:ns2="http://schemas.android.com/apk/res/com.emoji.keyboard.touchpal" ns2:select_icon="@drawable/guide_intro_select_icon"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="3">
+                    <com.cootek.smartinput5.func.resource.p055ui.TTextView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="3"/>
+                    <com.cootek.smartinput5.func.resource.p055ui.TTextView android:background="@drawable/guide_intro_skin_divider" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1"/>
+                    <com.cootek.smartinput5.func.resource.p055ui.TTextView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="3"/>
+                </LinearLayout>
+                <com.cootek.smartinput5.p066ui.guideintro.ImageSelector android:id="@+id/white_skin_selector" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="2" xmlns:ns3="http://schemas.android.com/apk/res/com.emoji.keyboard.touchpal" ns3:select_icon="@drawable/guide_intro_select_icon"/>
+                <com.cootek.smartinput5.func.resource.p055ui.TTextView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="3"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/show_page_view" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.cootek.smartinput5.func.paopaopanel.SlidePage android:gravity="center" android:id="@+id/show_slide_page" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </LinearLayout>
+    </ViewFlipper>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/next_btn_layout" android:paddingLeft="15dp" android:paddingRight="15dp" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.cootek.smartinput5.func.resource.p055ui.TCheckBox android:textSize="13dp" android:textColor="#ffffff" android:id="@+id/download_million_dict_ckb" android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/white_checkbox_btn" android:text="@string/guide_intro_download_million_dict_ckb"/>
+        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/login_view_btn_text_size" android:textColor="@drawable/guide_step_btn_textcolor_ctrl" android:gravity="center" android:id="@+id/next_step_btn" android:background="@drawable/guide_intro_btn_ctrl" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/initial_setting_next"/>
+    </LinearLayout>
+</RelativeLayout>

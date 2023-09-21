@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput">
+    <item android:state_selected="false" android:color="@color/main_entrance_title_unselected_state_color"/>
+    <item android:state_selected="true" android:color="@color/main_entrance_title_selected_state_color"/>
+</selector>

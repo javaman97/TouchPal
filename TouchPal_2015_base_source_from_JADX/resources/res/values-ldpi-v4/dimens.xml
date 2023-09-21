@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_textsize">14sp</dimen>
+    <dimen name="cloud_page_feature_summary_text_size">12dp</dimen>
+    <dimen name="cloud_page_feature_title_text_size">15dp</dimen>
+    <dimen name="cloud_page_slide_wizard_feature_summary_horizontal_padding">1dp</dimen>
+    <dimen name="cloud_page_slide_wizard_feature_title_bottom_margin">1dp</dimen>
+    <dimen name="cloud_page_slide_wizard_feature_title_top_margin">0dp</dimen>
+    <dimen name="cloud_page_slide_wizard_pic_top_margin">0dp</dimen>
+    <dimen name="cloud_page_title_padding_top">2dp</dimen>
+    <dimen name="cloud_page_title_text_size">20dp</dimen>
+    <dimen name="guide_app_name_text_size">25dp</dimen>
+    <dimen name="guide_data_usage_switch_bottom">0dp</dimen>
+    <dimen name="guide_entrance_btn_padding">8dp</dimen>
+    <dimen name="guide_finished_text_size">25dp</dimen>
+    <dimen name="guide_main_sub_title_text_size">20dp</dimen>
+    <dimen name="guide_num_number_content_margin_top_side">15dp</dimen>
+    <dimen name="guide_num_number_margin_gap">7dp</dimen>
+    <dimen name="guide_num_number_ring_margin_right">20dp</dimen>
+    <dimen name="guide_num_number_setting_icon_padding">3dp</dimen>
+    <dimen name="guide_privacy_link_bottom_margin">8dp</dimen>
+    <dimen name="guide_title_text_top_margin">5dp</dimen>
+    <dimen name="key_padding_inner_bottom">3px</dimen>
+    <dimen name="key_padding_inner_side">2px</dimen>
+    <dimen name="key_padding_outer_bottom">2px</dimen>
+    <dimen name="key_padding_outer_side">1px</dimen>
+    <dimen name="space_button_textsize">11sp</dimen>
+    <dimen name="tutorial_item_height">40dp</dimen>
+    <dimen name="rate_us_stats_content_text_size">15dp</dimen>
+    <dimen name="rate_us_stats_title_text_size">10dp</dimen>
+</resources>

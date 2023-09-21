@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/no_network" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/skin_download_no_network" android:scaleType="center"/>
+    <com.cootek.smartinput5.func.resource.p055ui.TTextView android:gravity="center" android:id="@+id/no_network_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/network_failed_prompt"/>
+</LinearLayout>

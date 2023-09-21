@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:key="function_bar">
+    <com.cootek.smartinput5.func.resource.p055ui.TTextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="@string/optpage_shortcut_input"/>
+    <com.cootek.smartinput5.func.resource.p055ui.TEditText android:id="@+id/ShortcutInput" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:singleLine="true" android:maxLength="16" android:inputType="textVisiblePassword" android:imeActionId="5"/>
+    <com.cootek.smartinput5.func.resource.p055ui.TTextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="@string/optpage_shortcut_word"/>
+    <com.cootek.smartinput5.func.resource.p055ui.TEditText android:id="@+id/ShortcutWord" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:singleLine="true" android:maxLength="128" android:imeActionId="6"/>
+</LinearLayout>

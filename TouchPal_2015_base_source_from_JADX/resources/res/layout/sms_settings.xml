@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:key="root">
+    <com.cootek.smartinput5.p066ui.settings.CustomizableCheckBoxPreference android:title="@string/sms_auto_learn" android:key="option_auto_learn_sms"/>
+    <com.cootek.smartinput5.p066ui.settings.CustomizableCheckBoxPreference android:title="@string/sms_only_outgoing" android:key="option_only_learn_outgoing"/>
+</PreferenceScreen>

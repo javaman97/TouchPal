@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:title="@string/optpage_language_edit_title" android:key="root">
+    <com.cootek.smartinput5.p066ui.settings.LanguageLayoutListPreferenceInte android:title="@string/optpage_lang_edit_layout_title" android:key="option_lng_edit_layout_list"/>
+    <com.cootek.smartinput5.p066ui.settings.LanguageMixInputListPreferenceInte android:key="option_lng_edit_mix_input"/>
+    <com.cootek.smartinput5.p066ui.settings.CustomButtonPreference android:key="option_lng_curve_packs"/>
+    <com.cootek.smartinput5.p066ui.settings.CustomizablePreference android:enabled="false" android:key="option_lng_wave_support"/>
+    <com.cootek.smartinput5.p066ui.settings.CustomizablePreference android:title="@string/optpage_lang_uninstall" android:key="option_lng_uninstall_language"/>
+</PreferenceScreen>

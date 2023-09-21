@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SeekBar xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:id="@+id/customize_skin_alpha_bar" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="2dp" android:max="255" android:progress="255" android:progressDrawable="@drawable/customise_skin_seekbar" android:minHeight="2dp" android:thumb="@drawable/transparency_seekbar_thumb" android:thumbOffset="10dp"/>

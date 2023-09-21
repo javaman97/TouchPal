@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/new_guide_logo_img"/>
+    <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/guide_app_name_text_size" android:textColor="@color/new_guide_main_title_text_color" android:id="@+id/logo_title" android:paddingTop="@dimen/guide_title_text_top_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name_international"/>
+    <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/guide_main_sub_title_text_size" android:textColor="@color/new_guide_main_sub_title_text_color" android:id="@+id/logo_title_sub" android:paddingTop="@dimen/guide_title_sub_text_top_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/guide_main_title_sub_text"/>
+</LinearLayout>

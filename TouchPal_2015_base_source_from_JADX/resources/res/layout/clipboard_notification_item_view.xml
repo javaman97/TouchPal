@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:background="@color/clipboard_notification_view_bg" android:layout_width="match_parent" android:layout_height="@dimen/need_more_item_height">
+        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/need_more_item_detail_textsize" android:textColor="#ffffff" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/clipboard_notify_message" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/notification_item_padding_left" android:layout_marginRight="@dimen/need_more_btn_width" android:layout_alignParentLeft="true"/>
+        <ImageButton android:id="@+id/i_know_btn" android:background="@drawable/bg_clipboard_item_btn" android:layout_width="@dimen/function_bar_btn_width" android:layout_height="match_parent" android:src="@drawable/clipboard_notification_clear_btn" android:scaleType="centerInside" android:layout_alignParentRight="true" android:contentDescription="@string/app_name"/>
+    </RelativeLayout>
+</LinearLayout>

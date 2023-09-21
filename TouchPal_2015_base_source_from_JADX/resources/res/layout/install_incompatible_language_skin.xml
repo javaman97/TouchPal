@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ScrollView android:id="@+id/langauge_scroll_frame" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/incompatible_dialog_item_text_size" android:textColor="#ffffff" android:id="@+id/language_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/incompatible_dialog_item_margin" android:layout_marginTop="@dimen/incompatible_dialog_item_margin" android:layout_marginRight="@dimen/incompatible_dialog_item_margin" android:layout_marginBottom="@dimen/incompatible_dialog_item_margin"/>
+    </ScrollView>
+    <View android:background="@color/paopao_item_divider_color" android:layout_width="match_parent" android:layout_height="@dimen/paopao_item_divider_height" android:layout_marginLeft="@dimen/paopao_item_side_padding" android:layout_marginRight="@dimen/paopao_item_side_padding"/>
+</LinearLayout>

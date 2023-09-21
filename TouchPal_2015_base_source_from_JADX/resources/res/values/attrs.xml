@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="listen_candidate" format="boolean">
+    </attr>
+    <attr name="candidate_on_color" format="color">
+    </attr>
+    <attr name="on_right" format="boolean">
+    </attr>
+    <attr name="custom_view_visible" format="boolean">
+    </attr>
+    <attr name="custom_view_enable" format="boolean">
+    </attr>
+    <attr name="custom_view_image_source" format="reference">
+    </attr>
+    <attr name="custom_button_visible" format="boolean">
+    </attr>
+    <attr name="custom_button_background_source" format="reference">
+    </attr>
+    <attr name="custom_button_text_source" format="reference|string">
+    </attr>
+    <attr name="title_max_lines" format="integer">
+    </attr>
+    <attr name="title_text_appearance" format="reference">
+    </attr>
+    <attr name="title_show_all_text" format="boolean">
+    </attr>
+    <attr name="setting_level" format="integer">
+    </attr>
+    <attr name="custom_background" format="reference">
+    </attr>
+    <attr name="state_tri_none" format="boolean">
+    </attr>
+    <attr name="state_tri_toggled" format="boolean">
+    </attr>
+    <attr name="state_tri_lock" format="boolean">
+    </attr>
+    <attr name="state_tri_forth" format="boolean">
+    </attr>
+    <attr name="state_bin_on" format="boolean">
+    </attr>
+    <attr name="state_bin_off" format="boolean">
+    </attr>
+    <attr name="image" format="reference">
+    </attr>
+    <attr name="select_icon" format="reference">
+    </attr>
+    <attr name="reflect_ratio" format="reference|float">
+    </attr>
+    <attr name="start_alpha" format="reference|color">
+    </attr>
+    <attr name="checked" format="boolean">
+    </attr>
+    <attr name="cornerButtonGravity" format="integer">
+    </attr>
+    <attr name="keyX" format="dimension|fraction">
+    </attr>
+    <attr name="keyY" format="dimension|fraction">
+    </attr>
+    <attr name="mainTextX" format="dimension|fraction">
+    </attr>
+    <attr name="mainTextY" format="dimension|fraction">
+    </attr>
+    <attr name="altTextX" format="dimension|fraction">
+    </attr>
+    <attr name="altTextY" format="dimension|fraction">
+    </attr>
+    <attr name="leftTextX" format="dimension|fraction">
+    </attr>
+    <attr name="leftTextY" format="dimension|fraction">
+    </attr>
+    <attr name="rightTextX" format="dimension|fraction">
+    </attr>
+    <attr name="rightTextY" format="dimension|fraction">
+    </attr>
+    <attr name="keyName" format="string">
+    </attr>
+    <attr name="candidateIndex" format="integer">
+    </attr>
+    <attr name="filterIndex" format="integer">
+    </attr>
+    <attr name="backgroundType">
+        <flag name="fun" value="1" />
+        <flag name="fun_highlight" value="2" />
+        <flag name="normal" value="0" />
+    </attr>
+    <attr name="foregroundType">
+        <flag name="center" value="0" />
+        <flag name="fitCenter" value="1" />
+    </attr>
+    <attr name="keyEdgeFlags">
+        <flag name="left" value="1" />
+        <flag name="right" value="2" />
+    </attr>
+    <attr name="triType">
+        <flag name="hindishift" value="2" />
+        <flag name="opt_curve" value="3" />
+        <flag name="separator" value="1" />
+        <flag name="shift" value="0" />
+    </attr>
+    <attr name="binType">
+        <flag name="dict" value="0" />
+        <flag name="lock" value="1" />
+    </attr>
+    <attr name="combineFlag">
+        <flag name="shift" value="1" />
+        <flag name="alt" value="4" />
+        <flag name="ctrl" value="2" />
+        <flag name="func" value="8" />
+    </attr>
+    <attr name="altTitlePreviewOnly" format="boolean">
+    </attr>
+    <attr name="iconWithMainTitle" format="boolean">
+    </attr>
+    <attr name="ignoreCurve" format="boolean">
+    </attr>
+    <attr name="ignoreStroke" format="boolean">
+    </attr>
+    <attr name="ignoreSlip" format="boolean">
+    </attr>
+    <attr name="iconPreview" format="reference">
+    </attr>
+    <attr name="keyIcon" format="reference">
+    </attr>
+    <attr name="maxDisplay" format="integer">
+    </attr>
+    <attr name="allowMultiLine" format="boolean">
+    </attr>
+    <attr name="splitWord" format="boolean">
+    </attr>
+    <attr name="intTag" format="integer">
+    </attr>
+    <attr name="background" format="reference">
+    </attr>
+    <attr name="hasLongPressIcon" format="boolean">
+    </attr>
+    <attr name="supportPreviewPopup" format="boolean">
+    </attr>
+    <attr name="enableDrawMoveContrail" format="boolean">
+    </attr>
+    <attr name="hasLeftScroll" format="boolean">
+    </attr>
+    <attr name="candidateCounts" format="integer">
+    </attr>
+    <attr name="height" format="dimension|fraction">
+    </attr>
+    <attr name="width" format="dimension|fraction">
+    </attr>
+    <attr name="keyWidth" format="dimension|fraction">
+    </attr>
+    <attr name="keyHeight" format="dimension|fraction">
+    </attr>
+    <attr name="horizontalGap" format="dimension|fraction">
+    </attr>
+    <attr name="verticalGap" format="dimension|fraction">
+    </attr>
+    <attr name="slipThreshold" format="dimension|fraction">
+    </attr>
+    <attr name="slideThreshold" format="dimension|fraction">
+    </attr>
+    <attr name="altTextInCorner" format="boolean">
+    </attr>
+    <attr name="mainTextFontBold" format="boolean">
+    </attr>
+    <attr name="keyboardViewStyle" format="reference">
+    </attr>
+    <attr name="keyboardBackground" format="reference">
+    </attr>
+    <attr name="keyBackground" format="reference">
+    </attr>
+    <attr name="funKeyBackground" format="reference">
+    </attr>
+    <attr name="funLongPressIcon" format="reference">
+    </attr>
+    <attr name="normalLongPressIcon" format="reference">
+    </attr>
+    <attr name="mainOnlyTextSize" format="dimension">
+    </attr>
+    <attr name="mainOnlyMinTextSize" format="dimension">
+    </attr>
+    <attr name="mainTextSize" format="dimension">
+    </attr>
+    <attr name="altTextSize" format="dimension">
+    </attr>
+    <attr name="labelTextSize" format="dimension">
+    </attr>
+    <attr name="mainTextColor" format="color">
+    </attr>
+    <attr name="altTextColor" format="color">
+    </attr>
+    <attr name="funMainTextColor" format="color">
+    </attr>
+    <attr name="funAltTextColor" format="color">
+    </attr>
+    <attr name="bufferTag">
+        <flag name="emotion" value="2" />
+        <flag name="filter" value="3" />
+        <flag name="keyboard" value="0" />
+        <flag name="keyboardBackgroundOrigin" value="1" />
+        <flag name="sympad" value="4" />
+    </attr>
+    <attr name="state_long_pressable" format="boolean">
+    </attr>
+    <attr name="rowEdgeFlags">
+        <flag name="bottom" value="8" />
+        <flag name="top" value="4" />
+    </attr>
+    <attr name="keyboardMode" format="reference">
+    </attr>
+    <attr name="softKeyName" format="string">
+    </attr>
+    <attr name="enablePreview" format="boolean">
+    </attr>
+    <attr name="support_multitouch" format="boolean">
+    </attr>
+    <attr name="hasMoreKey" format="boolean">
+    </attr>
+    <attr name="hasPageKey" format="boolean">
+    </attr>
+    <attr name="hasIndex" format="boolean">
+    </attr>
+    <attr name="supportLongPress" format="boolean">
+    </attr>
+    <attr name="split" format="reference">
+    </attr>
+</resources>

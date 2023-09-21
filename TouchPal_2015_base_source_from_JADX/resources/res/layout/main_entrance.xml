@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:orientation="vertical" android:background="@color/main_entrance_background_color" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:gravity="center_vertical" android:background="@drawable/main_entrance_title" android:layout_width="match_parent" android:layout_height="@dimen/main_entrance_title_height">
+        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/main_entrance_title_text_size" android:textColor="@color/main_entrance_main_title_text_color" android:gravity="center_vertical" android:id="@+id/title" android:paddingLeft="@dimen/main_entrance_title_padding_left" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+        <ImageView android:id="@+id/setting_image" android:layout_width="@dimen/main_entrance_title_height" android:layout_height="match_parent" android:layout_marginRight="@dimen/main_entrance_setting_margin_right" android:src="@drawable/main_entrance_settings_icon" android:scaleType="center" android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <FrameLayout android:id="@+id/main_entrance_switch_tabs" android:layout_width="match_parent" android:layout_height="@dimen/main_entrance_btn_height"/>
+    <FrameLayout android:id="@+id/content_frame" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

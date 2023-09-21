@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput">
+    <item android:drawable="@drawable/key_emo_blue_b" android:left="@dimen/key_padding_inner_side" android:right="@dimen/key_padding_inner_side"/>
+    <item android:drawable="@drawable/shadow_emo_white"/>
+</layer-list>

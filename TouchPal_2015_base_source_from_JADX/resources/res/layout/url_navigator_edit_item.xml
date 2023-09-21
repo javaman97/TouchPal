@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:orientation="vertical" android:padding="3dp" android:layout_width="match_parent" android:layout_height="match_parent" android:minWidth="288dp">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp">
+        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="20sp" android:textStyle="bold" android:gravity="center" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="5dp" android:text="@string/url_navigator_web_address"/>
+        <com.cootek.smartinput5.func.resource.p055ui.TEditText android:textSize="16sp" android:id="@+id/urlTextView" android:layout_width="wrap_content" android:layout_height="match_parent" android:singleLine="true" android:maxLength="150" android:layout_weight="1" android:inputType="textUri"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp">
+        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="20sp" android:textStyle="bold" android:gravity="center" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="5dp" android:text="@string/url_navigator_description"/>
+        <com.cootek.smartinput5.func.resource.p055ui.TEditText android:textSize="16sp" android:id="@+id/descriptionTextView" android:layout_width="wrap_content" android:layout_height="match_parent" android:singleLine="true" android:maxLength="30" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.cootek.smartinput5.func.resource.p055ui.TButton android:id="@+id/buttonOK" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@android:string/ok" android:layout_weight="1"/>
+        <com.cootek.smartinput5.func.resource.p055ui.TButton android:id="@+id/buttonCancel" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@android:string/cancel" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

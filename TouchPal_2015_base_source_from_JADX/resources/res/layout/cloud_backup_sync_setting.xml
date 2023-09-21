@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:layout_width="match_parent" android:key="root">
+    <com.cootek.smartinput5.p066ui.settings.CustomizableCheckBoxPreference android:title="@string/optpage_backup_sync_screen_title" android:key="option_backup_sync_enable"/>
+    <com.cootek.smartinput5.p066ui.settings.CustomizablePreference android:title="@string/optpage_backup_sync_now" android:key="option_backup_sync_now"/>
+    <com.cootek.smartinput5.p066ui.settings.CustomizablePreference android:title="@string/optpage_clear_backup" android:key="option_clear_backup"/>
+</PreferenceScreen>

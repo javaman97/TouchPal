@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/image" android:background="@drawable/language_selector_item_bg_ctrl" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="centerInside"/>
+    <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/language_select_textsize" android:textColor="@color/language_selector_text_color" android:ellipsize="end" android:gravity="center" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <ImageView android:id="@+id/arrow" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="fitCenter"/>
+</LinearLayout>

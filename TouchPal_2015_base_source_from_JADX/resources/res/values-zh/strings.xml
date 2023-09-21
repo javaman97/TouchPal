@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">触宝输入法</string>
+    <string name="app_name_international">触宝输入法 2015</string>
+    <string name="app_name_mainland">触宝输入法</string>
+    <string name="extract_failed_msg">存储空间不足，无法安装。请清理出空间后重试.</string>
+    <string name="extract_failed_title">存储空间不足</string>
+    <string name="extract_resource_initializing">输入法初始化…</string>
+    <string name="url_home_page">http://www.chubao.cn</string>
+    <string name="webview_url_skin_international">http://ime.service.cootek.com/international/skin/v5450/zh-cn/skinlist.html</string>
+    <string name="webview_url_skin_mainland">http://ime.cootekservice.com/mainland/skin/v5450/zh-cn/skinlist.html</string>
+    <string name="webview_url_speed_international">http://ime.service.cootek.com/international/speedometer/default/zh-cn/display.html</string>
+    <string name="webview_url_speed_mainland">http://ime.cootekservice.com/mainland/speedometer/default/zh-cn/display.html</string>
+</resources>

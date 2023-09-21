@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin_list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput">
+    <plugin id="sina_weibo" title="@string/sina_weibo_title" summary="@string/sina_weibo_summary" icon="@drawable/sina_icon_ctrl" support_version="mainland">
+        <action_main type="activity" package="com.emoji.keyboard.touchpal" class="com.cootek.smartinput5.plugin.weibo.AuthorizeActivity">
+            <category value="android.intent.category.DEFAULT"/>
+        </action_main>
+        <action_settings type="activity" package="com.emoji.keyboard.touchpal" class="com.cootek.smartinput5.plugin.weibo.AuthorizeActivity">
+            <category value="com.cootek.smartinput.intent.category.MINIMODE"/>
+        </action_settings>
+    </plugin>
+    <plugin id="twitter" title="@string/twitter_title" summary="@string/twitter_summary" icon="@drawable/twitter_icon_ctrl" support_version="international">
+        <action_main type="activity" package="com.emoji.keyboard.touchpal" class="com.cootek.smartinput5.plugin.twitter.AuthorizeActivity">
+            <category value="com.cootek.smartinput.intent.category.DEFAULT"/>
+        </action_main>
+        <action_settings type="activity" package="com.emoji.keyboard.touchpal" class="com.cootek.smartinput5.plugin.twitter.AuthorizeActivity">
+            <category value="com.cootek.smartinput.intent.category.MINIMODE"/>
+        </action_settings>
+    </plugin>
+    <plugin id="typing_race" title="@string/race_title" summary="@string/race_summary" icon="@drawable/race_icon" hide_keyboard="true" support_version="mainland">
+        <action_main type="activity" package="com.emoji.keyboard.touchpal" class="com.cootek.smartinput5.plugin.typingrace.Guide">
+            <category value="android.intent.category.DEFAULT"/>
+        </action_main>
+    </plugin>
+    <plugin id="url_navigator" title="@string/url_navigator_title" summary="@string/url_navigator_summary" icon="@drawable/url_navigator_icon" support_version="mainland">
+        <action_main type="keyname" value="sk_url"/>
+    </plugin>
+    <plugin id="quick_switcher" title="@string/quick_switcher_title" summary="@string/quick_switcher_summary" icon="@drawable/quick_switcher_icon" support_version="mainland">
+        <action_main type="keyname" value="sk_quick_switcher"/>
+        <action_settings type="activity" package="com.emoji.keyboard.touchpal" class="com.cootek.smartinput5.plugin.quickswitcher.Options">
+            <category value="android.intent.category.DEFAULT"/>
+        </action_settings>
+    </plugin>
+    <plugin id="message_pal" title="@string/message_pal_title" summary="@string/message_pal_summary" icon="@drawable/message_pal_icon" support_version="mainland">
+        <action_main type="activity" package="com.emoji.keyboard.touchpal" class="com.cootek.smartinput5.plugin.messagepal.MessageList">
+            <category value="android.intent.category.DEFAULT"/>
+        </action_main>
+    </plugin>
+    <language id="english" versionCode="5632" language_curve="true" curve_buildin="true" voice="en_US" language_keyboard="true" iconId="@drawable/tray_english" short_name="@string/LANGUAGE_ENGLISH"/>
+</plugin_list>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:orientation="vertical" android:background="@color/faq_layout_bg_color" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/faq_title_height">
+        <ImageView android:id="@+id/faq_back_btn" android:layout_width="@dimen/faq_back_btn_width" android:layout_height="match_parent" android:src="@drawable/faq_back" android:scaleType="centerInside"/>
+        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/faq_title_text_size" android:textColor="@color/faq_text_color" android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/optpage_faq"/>
+    </LinearLayout>
+    <WebView android:id="@+id/faq_webview" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

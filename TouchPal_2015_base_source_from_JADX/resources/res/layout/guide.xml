@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:orientation="vertical" android:background="@drawable/bg_guide_intro" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/btn_layout">
+        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="5"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+            <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/guide_icon" android:scaleType="fitCenter" android:layout_weight="6"/>
+            <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/guide_title_text_size" android:textStyle="bold" android:textColor="#ffffff" android:gravity="top|center_vertical|center_horizontal|center" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/guide_title" android:layout_weight="9"/>
+        </LinearLayout>
+        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="5"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/btn_layout" android:paddingLeft="10dp" android:paddingRight="10dp" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/guide_btn_text_size" android:textColor="@drawable/guide_step_btn_textcolor_ctrl" android:gravity="center" android:id="@+id/enable_touchpal_btn" android:background="@drawable/guide_step_btn_bg_ctrl" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/guide_step1_title"/>
+        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/guide_btn_text_size" android:textColor="@drawable/guide_step_btn_textcolor_ctrl" android:gravity="center" android:id="@+id/default_touchpal_btn" android:background="@drawable/guide_step_btn_bg_ctrl" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="@string/guide_step2_title"/>
+    </LinearLayout>
+</RelativeLayout>

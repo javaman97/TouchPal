@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cootek.smartinput5.p066ui.settings.CustomSkinItem xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:orientation="vertical" android:background="@android:color/transparent" android:padding="@dimen/custom_skin_setting_item_padding" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/custom_skin_setting_item_text_size" android:textColor="@color/custom_skin_item_text_color" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/custom_skin_setting_item" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/custom_skin_setting_item_seperation"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/custom_skin_setting_content" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</com.cootek.smartinput5.p066ui.settings.CustomSkinItem>

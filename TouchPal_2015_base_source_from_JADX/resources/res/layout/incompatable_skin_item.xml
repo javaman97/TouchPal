@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:orientation="vertical" android:background="@drawable/bg_main_entrance_tab_ctrl" android:paddingLeft="@dimen/main_entrance_title_padding_left" android:layout_width="match_parent" android:layout_height="@dimen/skin_list_more_height">
+    <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/main_entrance_skin_more_title_size" android:textColor="@color/main_entrance_skin_more_text_color" android:gravity="center_vertical" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="@dimen/skin_list_more_title_height"/>
+    <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/main_entrance_skin_more_summary_size" android:textColor="@color/main_entrance_skin_more_text_summary_color" android:gravity="center_vertical" android:id="@+id/summary" android:layout_width="match_parent" android:layout_height="@dimen/skin_list_more_subtitle_height"/>
+</LinearLayout>

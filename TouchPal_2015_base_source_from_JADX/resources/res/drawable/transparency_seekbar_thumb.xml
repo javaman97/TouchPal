@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput">
+    <item android:state_pressed="true">
+        <shape android:shape="oval">
+            <stroke android:width="10dp" android:color="#00000000"/>
+            <solid android:color="#01a19f"/>
+            <size android:height="30dp" android:width="30dp"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <stroke android:width="10dp" android:color="#00000000"/>
+            <solid android:color="#01bfbb"/>
+            <size android:height="30dp" android:width="30dp"/>
+        </shape>
+    </item>
+</selector>

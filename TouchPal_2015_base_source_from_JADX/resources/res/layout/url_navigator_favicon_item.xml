@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:orientation="vertical" android:id="@+id/root" android:layout_width="match_parent" android:layout_height="70dp">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <ImageView android:layout_gravity="center" android:id="@+id/imageView" android:layout_width="32dp" android:layout_height="32dp" android:src="@drawable/url_navigator_icon" android:scaleType="fitXY"/>
+    </FrameLayout>
+    <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="16dp" android:textColor="#ffffff" android:ellipsize="end" android:gravity="center_horizontal" android:id="@+id/textView" android:background="#33000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="2dp" android:text="TextView" android:singleLine="true"/>
+</LinearLayout>

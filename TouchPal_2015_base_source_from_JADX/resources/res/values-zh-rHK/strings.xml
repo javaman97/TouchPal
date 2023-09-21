@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">觸寶輸入法</string>
+    <string name="app_name_international">觸寶輸入法 2015</string>
+    <string name="app_name_mainland">觸寶輸入法</string>
+    <string name="extract_failed_msg">存儲空間不足，無法安裝。請清理出空間後重試。</string>
+    <string name="extract_failed_title">存儲空間不足</string>
+    <string name="extract_resource_initializing">輸入法初始化…</string>
+</resources>

@@ -1,0 +1,33 @@
+<Configurations>
+	<!-- more tab for shop -->
+	<Option key='CATEGORY_PAOPAO_PANEL' value='true' type="boolean">
+	    <Option key='PAOPAO_TAB_NEWS' value='false' type="boolean"/>
+	</Option>
+	<!-- paopao news checker -->
+	<Option key='CATEGORY_BACKGROUND_NETWORK_CHECKER' value='true' type='boolean'>
+		<Option key='paopao_news' value='false' type='boolean'/>
+	</Option>
+	<Option key="HANDWRITE_FULL_SYMBOL_AREA" visible="false"/>
+	<Option key="option_keyboard_size_list" value='false' visible="false"></Option>
+	<Option key="option_candidate_size_list" value='false' visible="false"></Option>
+	<Option key="option_onehanded_layout" value='false' visible="false"></Option>
+	<Option key='ONLINE_SHOP' value='true' type='boolean'/>
+	<Option key="GOOGLE_IAB" value='true' type="boolean"/>
+	<Option key="LOCALIZE_WEBSITE_CHECKER" value="false" type="boolean"/>
+	<Option key="MANUAL_CLOUD_SEARCH" value='false' type="boolean"/>
+	<Option key="PLUGIN_UN_PERMIT" value='false' type="boolean"/>
+	<Option key="NETWORK_DATA_CHECKER" value="false" type="boolean"/>
+
+    <!--<Option key="ENABLE_NOAH_TEST_MODE" value="false" type="boolean"/>-->
+	<!--Option key='WEBVIEW_URL_ONLINE_SHOP_INTERNATIONAL' value='http://ime2.service.cootek.com/nocache/international/shop/v5500/default/shop.html' type='string'/>
+	<Option key='WEBVIEW_URL_ONLINE_SHOP_MAINLAND' value='http://ime2.cootekservice.com/nocache/mainland/shop/v5500/default/shop.html' type='string'/-->
+	<!--Option key='WEBVIEW_URL_ONLINE_SHOP_INTERNATIONAL' value='http://58.32.229.109:82/static/for_bear_1/shop.html' type='string'/>
+	<Option key='WEBVIEW_URL_ONLINE_SHOP_MAINLAND' value='http://58.32.229.109:82/static/for_bear_1/shop.html' type='string'/>
+    <Option key="COOTEK_SERVER_HTTP" value="58.32.229.109:82" type="string"/>
+    <Option key="COOTEK_SERVER_HTTPS" value="58.32.229.109:82" type="string"/-->
+    <!--Option key="IME_SERVER" value="http://58.32.229.109:82" type="string"/-->  
+	<!--<Option key="WEBVIEW_URL_POPULAR_SKIN" value="http://121.52.235.232:30006/static/popular/popular.html" type="string"/>
+	<Option key="WEBVIEW_URL_FAQ" value="http://121.52.235.232:30006/static/FAQ/index.html" type="string"/>
+	<Option key="WEBVIEW_URL_GUESS_EMOJI" value="http://121.52.235.232:30006/static/faq/index.html" type="string"/>-->
+</Configurations>
+

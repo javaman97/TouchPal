@@ -1,0 +1,42 @@
+<Usage>
+	<UploadStrategy>
+	    <Strategy name='default' wifi='720' mobile='-1'/> <!-- You must have a strategy named 'default' in lowercase. -->
+	    <Strategy name='asap' wifi='15' mobile='15'/>
+	    <Strategy name='asap_wifi_only' wifi='15' mobile='-1'/>
+	    <Strategy name='wifi_first' wifi='60' mobile='360'/>
+	    <Strategy name='encrypt_wifi_first' wifi='60' mobile='360' encrypt='true'/>
+	</UploadStrategy>
+	
+	<UploadControl>
+	    <data path='/COMMERCIAL/REFERRER/' strategy='asap'/>
+	    <data path='/COMMERCIAL/JS_DOWNLOAD/START' strategy='asap'/>
+	    <data path='/COMMERCIAL/JS_DOWNLOAD/SUCCESS' strategy='asap'/>
+	    <data path='/COMMERCIAL/JS_DOWNLOAD/INSTALLED' strategy='asap'/>
+	    <data path='/COMMERCIAL/JS_DOWNLOAD/CONFIRM_CANCEL' strategy='asap'/>
+	    <data path='/COMMERCIAL/JS_DOWNLOAD/NO_SDCARD' strategy='asap'/>
+	    <data path='/COMMERCIAL/NATIVE_ADS/CLICK' strategy='asap'/>
+	    <data path='/COMMERCIAL/NATIVE_ADS/SHOW' strategy='asap'/>
+	    <data path='/COMMERCIAL/NATIVE_ADS/INSTALL' strategy='asap'/>
+	    <data path='/COMMERCIAL/PAPAYA/INSTALL' strategy='asap'/>
+	    <data path='/STATISTIC/RATE_US/SHARE_BUTTON' strategy='asap'/>
+	    <data path='/STATISTIC/RATE_US/LATER_BUTTON' strategy='asap'/>
+	    <data path='/STATISTIC/RATE_US/NOTIFICATION' strategy='asap'/>
+	    <data path='/STATISTIC/RATE_US/PREF_ITEM' strategy='asap'/>
+	    <data path='/STATISTIC/RATE_US/RATE_BUTTON/CLICK' strategy='asap'/>
+	    <data path='/STATISTIC/RATE_US/PAGE/SHOW' strategy='asap'/>
+	    <data path='/STATISTIC/DICT_RECOVERY/DICT_ERROR_ON_DAILY_CHECK' strategy='asap'/>
+	    <data path='/STATISTIC/DICT_RECOVERY/JAVA_CRASH' strategy='asap_wifi_only'/>
+	    <data path='/STATISTIC/DICT_RECOVERY/JAVA_CRASH_WHEN_KEYBOARD_SHOWN' strategy='asap_wifi_only'/>
+	    <data path='/STATISTIC/DICT_RECOVERY/NATIVE_CRASH_WHEN_DICT_INIT' strategy='asap_wifi_only'/>
+	    <data path='/STATISTIC/DICT_RECOVERY/NATIVE_CRASH_WHEN_KEYBOARD_SHOWN' strategy='asap_wifi_only'/>
+	    <data path='/STATISTIC/DICT_RECOVERY/DICT_ERROR_ON_DICT_INIT_FAILED' strategy='asap_wifi_only'/>
+	    <data path='/STATISTIC/DICT_RECOVERY/DICT_ERROR_ON_CLOUD_SYNC_RESTORE' strategy='asap_wifi_only'/>
+	    <data path='/PERFORMANCE/PERF_COLLECT' sampling='100'/>
+	    <data path='path_noah_crash' strategy='asap'/>
+	    <data path='/PATTERN/' strategy='encrypt_wifi_first'/>
+	    <data path='/STATISTIC/RECORD_USER_PATTERN' strategy='asap'/>
+	    <data path='/STATISTIC/OPEN_KEYBOARD' strategy='asap'/>
+	    <!-- the path which not defined here would use default strategy and 100% sampling -->
+	</UploadControl>
+</Usage>
+

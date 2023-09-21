@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <corners android:radius="@dimen/paopao_corners_radius"/>
+    <solid android:color="@color/paopao_bg_color"/>
+    <stroke android:width="@dimen/paopao_frame_line_width" android:color="@color/paopao_framework_line_color"/>
+</shape>

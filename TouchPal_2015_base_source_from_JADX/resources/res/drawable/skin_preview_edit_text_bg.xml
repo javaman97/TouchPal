@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput">
+    <item>
+        <shape>
+            <solid android:color="@color/skin_preview_bar_color"/>
+        </shape>
+    </item>
+    <item android:bottom="1dp">
+        <shape>
+            <solid android:color="@color/skin_page_title_bg_color"/>
+        </shape>
+    </item>
+</layer-list>

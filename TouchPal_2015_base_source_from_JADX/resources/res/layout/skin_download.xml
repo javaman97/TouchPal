@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/download_tabs" android:background="@drawable/bg_paopao_tab_bar" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.cootek.smartinput5.func.resource.p055ui.TButton android:textSize="@dimen/download_tab_text_size" android:textColor="@color/quick_setting_content_color" android:gravity="center" android:id="@+id/skin_tab" android:background="@drawable/bg_tab_item" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="0dp" android:text="@string/download_tab_skin" android:layout_weight="1"/>
+        <com.cootek.smartinput5.func.resource.p055ui.TButton android:textSize="@dimen/download_tab_text_size" android:textColor="@color/quick_setting_content_color" android:gravity="center" android:id="@+id/hotword_tab" android:background="@drawable/bg_tab_item" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="0dp" android:text="@string/download_tab_hotword" android:layout_weight="1"/>
+    </LinearLayout>
+    <com.cootek.smartinput5.net.TWebView android:id="@+id/skin_download_view" android:layout_width="match_parent" android:layout_height="480dp" android:layout_weight="1"/>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:shape="rectangle">
+    <solid android:color="@color/paopao_item_divider_color"/>
+    <size android:height="1dp"/>
+    <padding android:left="2dp" android:right="2dp"/>
+</shape>

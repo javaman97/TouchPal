@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cootek.smartinput5.func.resource.p055ui.TTextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:textSize="@dimen/paopao_spinner_text_size" android:textColor="@color/paopao_button_text_color" android:ellipsize="marquee" android:gravity="left" android:paddingLeft="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true"/>

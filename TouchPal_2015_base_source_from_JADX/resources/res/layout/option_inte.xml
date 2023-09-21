@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:key="root">
+    <com.cootek.smartinput5.func.resource.p055ui.TPreferenceScreen android:title="@string/optpage_general_settings_title" android:key="option_general_screen" android:summary="@string/optpage_general_settings_summary">
+        <com.cootek.smartinput5.p066ui.settings.SoundDialogPreference android:title="@string/optpage_sound" android:key="option_sound_dialog" android:dialogTitle="@string/optpage_sound" android:dialogMessage="@string/optpage_sound" android:dialogLayout="@layout/key_volume"/>
+        <com.cootek.smartinput5.p066ui.settings.VibrateDialogPreference android:title="@string/optpage_vibrate" android:key="option_vibrate_dialog" android:dialogTitle="@string/optpage_vibrate" android:dialogMessage="@string/optpage_vibrate" android:dialogLayout="@layout/key_vibrate"/>
+        <com.cootek.smartinput5.p066ui.settings.PortraitKeyboardSizeListPreference android:entries="@array/portrait_keyboard_size_key" android:title="@string/optpage_portrait_keyboard_size" android:key="option_keyboard_size_list" android:defaultValue="@integer/portrait_keyboard_size_value_default" android:entryValues="@array/portrait_keyboard_size_value"/>
+        <com.cootek.smartinput5.p066ui.settings.FontDialogPreference android:title="@string/optpage_font_select_title" android:key="option_keyboard_font_selector" android:dialogTitle="@string/optpage_font_select_title" android:dialogLayout="@layout/font_selector"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizablePreference android:title="@string/option_customize_keyboard_size" android:key="option_customize_keyboard_size" android:summary="@string/option_customize_keyboard_size_summary"/>
+        <com.cootek.smartinput5.p066ui.settings.CandidateSizeListPreference android:entries="@array/candidate_size_key" android:title="@string/optpage_candidate_size" android:key="option_candidate_size_list" android:defaultValue="@integer/candidate_size_value_default" android:entryValues="@array/candidate_size_value"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizableCheckBoxPreference android:title="@string/optpage_keyboard_num_line_style_title" android:key="option_keyboard_num_line_style"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizableCheckBoxPreference android:title="@string/optpage_forbid_simple_candidate_style_title" android:key="option_forbid_simple_candidate_style" android:summary="@string/optpage_forbid_simple_candidate_style_summary"/>
+        <com.cootek.smartinput5.p066ui.settings.PopupPreviewListPreference android:entries="@array/popup_preview_key" android:title="@string/optpage_popup" android:key="option_popup_preview_list" android:defaultValue="@integer/popup_preview_value_default" android:entryValues="@array/popup_preview_value"/>
+        <com.cootek.smartinput5.p066ui.settings.LongPressDelayPreference android:title="@string/optpage_long_press_delay" android:key="option_long_press_delay" android:dialogLayout="@layout/long_press_delay_settings_dlg"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizableCheckBoxPreference android:title="@string/optpage_commit_animation" android:key="option_commit_animation" android:summary="@string/optpage_commit_animation_summary"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizableCheckBoxPreference android:title="@string/optpage_accessibility_title" android:key="option_accessibility" android:summary="@string/optpage_accessibility_summary"/>
+        <com.cootek.smartinput5.p066ui.settings.EmojiDisplayDialogPreference android:title="@string/emoji_display_title" android:key="option_emoji_display" android:dialogTitle="@string/emoji_display_title" android:dialogLayout="@layout/font_selector"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizableCheckBoxPreference android:title="@string/optpage_emoji_prediction_title" android:key="option_emoji_prediction" android:summary="@string/optpage_emoji_prediction_summary"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizableCheckBoxPreference android:title="@string/optpage_landscape_screen_mode_title" android:key="option_landscape_screen_mode" android:summary="@string/optpage_landscape_screen_mode_summary"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizablePreference android:title="@string/optpage_skin" android:key="option_skin" android:summary="@string/optpage_skin_summary"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizableCheckBoxPreference android:title="@string/optpage_one_handed_mode" android:key="option_onehanded_layout"/>
+    </com.cootek.smartinput5.func.resource.p055ui.TPreferenceScreen>
+    <com.cootek.smartinput5.func.resource.p055ui.TPreferenceScreen android:title="@string/optpage_label_smart_input" android:key="option_smart_input_screen" android:summary="@string/optpage_label_smart_input_summary_inte">
+        <com.cootek.smartinput5.p066ui.settings.CustomizableCheckBoxPreference android:title="@string/optpage_enable_curve" android:key="option_curve" android:summary="@string/optpage_enable_curve_summary"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizableCheckBoxPreference android:title="@string/optpage_enable_wave" android:key="option_wave"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizableCheckBoxPreference android:title="@string/optpage_wave_without_next_word_on_candidate_title" android:key="option_wave_without_next_word_on_candidate" xmlns:ns1="http://schemas.android.com/apk/res/com.emoji.keyboard.touchpal" ns1:setting_level="1"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizableCheckBoxPreference android:title="@string/optpage_autocorrection" android:key="option_auto_correction" android:summary="@string/optpage_autocorrection_summary"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizableCheckBoxPreference android:title="@string/optpage_advanced_prediction" android:key="option_advanced_prediction" android:summary="@string/optpage_advanced_prediction_summary"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizableCheckBoxPreference android:title="@string/optpage_auto_save_title" android:key="option_auto_save" android:summary="@string/optpage_auto_save_summary"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizableCheckBoxPreference android:title="@string/optpage_auto_space" android:key="option_auto_space" android:summary="@string/optpage_auto_space_summary"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizableCheckBoxPreference android:title="@string/optpage_auto_capitalization" android:key="option_auto_capitalization" android:summary="@string/optpage_auto_capitalization_summary"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizableCheckBoxPreference android:title="@string/optpage_space_get_next_word" android:key="option_space_to_input_nextword"/>
+    </com.cootek.smartinput5.func.resource.p055ui.TPreferenceScreen>
+    <com.cootek.smartinput5.func.resource.p055ui.TPreference android:title="@string/optpage_touchpal_cloud_title" android:key="option_touchpal_cloud_screen" android:summary="@string/optpage_touchpal_cloud_summary"/>
+    <com.cootek.smartinput5.func.resource.p055ui.TPreferenceScreen android:title="@string/optpage_chinese_input_title" android:key="option_chinese_input_screen" android:summary="@string/optpage_chinese_input_summary">
+        <com.cootek.smartinput5.p066ui.settings.CustomizableCheckBoxPreference android:title="@string/optpage_nextword" android:key="option_predict_next_word_chs" android:summary="@string/optpage_nextword_summary"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizableCheckBoxPreference android:title="@string/optpage_space_get_next_word" android:key="option_space_get_next_word"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizableCheckBoxPreference android:title="@string/optpage_stroke_filter" android:key="option_stroke_filter" android:summary="@string/optpage_stroke_filter_summary"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizablePreference android:title="@string/optpage_traditional_Chinese" android:key="option_traditional_chs" android:summary="@string/optpage_traditional_Chinese_summary"/>
+        <com.cootek.smartinput5.func.resource.p055ui.TPreferenceScreen android:title="@string/optpage_fuzzy_pinyin" android:key="option_fuzzy_pinyin">
+            <com.cootek.smartinput5.func.resource.p055ui.TPreference android:title="@string/optpage_selectall" android:key="option_select_all"/>
+            <com.cootek.smartinput5.func.resource.p055ui.TPreference android:title="@string/optpage_clearall" android:key="option_clear_all"/>
+            <com.cootek.smartinput5.p066ui.settings.CustomizableCheckBoxPreference android:title="@string/optpage_z_zh" android:key="option_z_zh"/>
+            <com.cootek.smartinput5.p066ui.settings.CustomizableCheckBoxPreference android:title="@string/optpage_c_ch" android:key="option_c_ch"/>
+            <com.cootek.smartinput5.p066ui.settings.CustomizableCheckBoxPreference android:title="@string/optpage_s_sh" android:key="option_s_sh"/>
+            <com.cootek.smartinput5.p066ui.settings.CustomizableCheckBoxPreference android:title="@string/optpage_an_ang" android:key="option_an_ang"/>
+            <com.cootek.smartinput5.p066ui.settings.CustomizableCheckBoxPreference android:title="@string/optpage_en_eng" android:key="option_en_eng"/>
+            <com.cootek.smartinput5.p066ui.settings.CustomizableCheckBoxPreference android:title="@string/optpage_in_ing" android:key="option_in_ing"/>
+            <com.cootek.smartinput5.p066ui.settings.CustomizableCheckBoxPreference android:title="@string/optpage_l_n" android:key="option_l_n"/>
+            <com.cootek.smartinput5.p066ui.settings.CustomizableCheckBoxPreference android:title="@string/optpage_f_h" android:key="option_f_h"/>
+            <com.cootek.smartinput5.p066ui.settings.CustomizableCheckBoxPreference android:title="@string/optpage_r_l" android:key="option_r_l"/>
+            <com.cootek.smartinput5.p066ui.settings.CustomizableCheckBoxPreference android:title="@string/optpage_ian_iang" android:key="option_ian_iang"/>
+            <com.cootek.smartinput5.p066ui.settings.CustomizableCheckBoxPreference android:title="@string/optpage_uan_uang" android:key="option_uan_uang"/>
+        </com.cootek.smartinput5.func.resource.p055ui.TPreferenceScreen>
+        <com.cootek.smartinput5.p066ui.settings.ClokeListPreference android:entries="@array/cloke_enable_mode_key" android:title="@string/optpage_cloke_enable_mode" android:key="option_cloke_list" android:defaultValue="@integer/optpage_cloke_enable_mode_default_value" android:entryValues="@array/cloke_enable_mode_value"/>
+        <com.cootek.smartinput5.p066ui.settings.ShuangpinListPreference android:entries="@array/shuangpin_enable_mode_key" android:title="@string/optpage_shuangpin_enable_mode" android:key="option_shuang_pin" android:defaultValue="@integer/optpage_shuangpin_enable_mode_default_value" android:entryValues="@array/shuangpin_enable_mode_value"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizableCheckBoxPreference android:title="@string/optpage_enable_super_dict" android:key="option_enable_super_dict"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizablePreference android:title="@string/optpage_uninstall_super_dict" android:key="option_uninstall_super_dict"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizablePreference android:title="@string/optpage_handwriting" android:key="option_chs_handwriting"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizableCheckBoxPreference android:title="@string/optpage_wubi_big_charset" android:key="option_wubi_GBK"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizableCheckBoxPreference android:title="@string/optpage_wubi_auto_adjust_freq" android:key="option_wubi_auto_adjust_freq"/>
+    </com.cootek.smartinput5.func.resource.p055ui.TPreferenceScreen>
+    <com.cootek.smartinput5.func.resource.p055ui.TPreference android:title="@string/optpage_language_inte" android:key="option_language_screen" android:summary="@string/optpage_language_summary_inte"/>
+    <com.cootek.smartinput5.func.resource.p055ui.TPreferenceScreen android:title="@string/optpage_speed" android:key="option_speed_screen">
+        <com.cootek.smartinput5.p066ui.settings.CustomizableCheckBoxPreference android:title="@string/optpage_speedometer" android:key="option_speed_dometer" android:summary="@string/optpage_speedometer_summary"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizablePreference android:title="@string/optpage_speed_view" android:key="option_speed_view"/>
+    </com.cootek.smartinput5.func.resource.p055ui.TPreferenceScreen>
+    <com.cootek.smartinput5.func.resource.p055ui.TPreference android:title="@string/optpage_vip" android:key="option_vip"/>
+    <com.cootek.smartinput5.func.resource.p055ui.TPreference android:title="@string/optpage_faq" android:key="option_faq"/>
+    <com.cootek.smartinput5.func.resource.p055ui.TPreferenceScreen android:title="@string/optpage_help_about_title" android:key="option_help_about_screen">
+        <com.cootek.smartinput5.func.resource.p055ui.TPreferenceCategory android:title="@string/optpage_category_share" android:key="option_help_about_category_share">
+            <com.cootek.smartinput5.p066ui.settings.CustomizablePreference android:title="@string/optpage_share_with_friends" android:key="opton_share" android:summary="@string/optpage_share_with_friends_summary"/>
+        </com.cootek.smartinput5.func.resource.p055ui.TPreferenceCategory>
+        <com.cootek.smartinput5.func.resource.p055ui.TPreferenceCategory android:title="@string/optpage_category_support" android:key="option_help_about_category_support">
+            <com.cootek.smartinput5.p066ui.settings.CustomizablePreference android:title="@string/optpage_tutorial_title" android:key="option_tutorial" android:summary="@string/optpage_tutorial_summary"/>
+            <com.cootek.smartinput5.p066ui.settings.CustomizablePreference android:title="@string/optpage_wave_tutorial" android:key="option_wave_tutorial"/>
+            <com.cootek.smartinput5.p066ui.settings.CustomizablePreference android:title="@string/optpage_user_feedback" android:key="option_feedback_uservoice" android:summary="@string/optpage_user_feedback_summary"/>
+            <com.cootek.smartinput5.p066ui.settings.CustomizablePreference android:title="@string/optpage_bug_report" android:key="option_feedback" android:summary="@string/optpage_bug_report_summary"/>
+        </com.cootek.smartinput5.func.resource.p055ui.TPreferenceCategory>
+        <com.cootek.smartinput5.func.resource.p055ui.TPreferenceCategory android:title="@string/optpage_category_debugging" android:key="option_help_about_category_debugging">
+            <com.cootek.smartinput5.p066ui.settings.CustomizableCheckBoxPreference android:title="@string/optpage_debugging_mode_title" android:key="option_debugging_mode" android:summary="@string/optpage_debugging_mode_summary"/>
+            <com.cootek.smartinput5.p066ui.settings.CustomizablePreference android:title="@string/optpage_rebuild_language_data_title" android:key="option_rebuild_language_data" android:summary="@string/optpage_rebuild_language_data_summary"/>
+        </com.cootek.smartinput5.func.resource.p055ui.TPreferenceCategory>
+        <com.cootek.smartinput5.func.resource.p055ui.TPreferenceCategory android:title="@string/optpage_category_about" android:key="option_help_about_category_about">
+            <com.cootek.smartinput5.func.resource.p055ui.TPreferenceScreen android:title="@string/optpage_version_category" android:key="option_version_screen" android:summary="@string/optpage_version_category_summary">
+                <com.cootek.smartinput5.func.resource.p055ui.TPreference android:enabled="true" android:title="@string/optpage_version" android:key="option_version_band" android:summary="@string/optpage_version_summary"/>
+                <com.cootek.smartinput5.func.resource.p055ui.TPreference android:enabled="true" android:title="@string/optpage_builddate" android:key="option_build_date" android:summary="@string/optpage_builddate_summary"/>
+                <com.cootek.smartinput5.func.resource.p055ui.TPreference android:enabled="true" android:title="@string/optpage_cootek" android:key="option_come_from_cootek" android:summary="@string/optpage_cootek_summary"/>
+            </com.cootek.smartinput5.func.resource.p055ui.TPreferenceScreen>
+            <com.cootek.smartinput5.func.resource.p055ui.TPreferenceScreen android:title="@string/optpage_update_management" android:key="option_help_update_screen">
+                <com.cootek.smartinput5.p066ui.settings.UpdateDialogPreference android:entries="@array/auto_update_key" android:title="@string/optpage_update_set" android:key="option_update_freq" android:defaultValue="@integer/auto_update_value_default" android:entryValues="@array/auto_update_value"/>
+                <com.cootek.smartinput5.p066ui.settings.CustomizablePreference android:title="@string/optpage_update_dic" android:key="option_update_dic"/>
+                <com.cootek.smartinput5.p066ui.settings.CustomizablePreference android:title="@string/optpage_update" android:key="option_update_software"/>
+            </com.cootek.smartinput5.func.resource.p055ui.TPreferenceScreen>
+            <com.cootek.smartinput5.func.resource.p055ui.TPreference android:title="@string/optpage_twitter_follow_us" android:key="option_twitter_follow_us"/>
+            <com.cootek.smartinput5.func.resource.p055ui.TPreferenceScreen android:title="@string/optpage_rate_us" android:key="option_rate_us"/>
+            <com.cootek.smartinput5.func.resource.p055ui.TPreference android:title="@string/optpage_privacy_policy" android:key="privacy"/>
+            <com.cootek.smartinput5.p066ui.settings.CustomizableCheckBoxPreference android:title="@string/optpage_send_usage_statistics" android:key="option_send_usage_statistics" android:summary="@string/optpage_send_usage_statistics_summary"/>
+            <com.cootek.smartinput5.func.resource.p055ui.TPreference android:title="@string/option_beta_title" android:key="option_beta" android:summary="@string/option_beta_summary"/>
+            <com.cootek.smartinput5.func.resource.p055ui.TPreferenceScreen android:title="@string/optpage_special_thanks" android:key="option_special_thanks"/>
+            <com.cootek.smartinput5.func.resource.p055ui.TPreferenceScreen android:title="@string/optpage_about_handwriting" android:key="option_about_handwriting">
+                <com.cootek.smartinput5.p066ui.settings.CustomizablePreference android:enabled="false" android:title="@string/optpage_handwriting_provider" android:key="option_handwriting_provider" android:summary="@string/optpage_handwriting_provider_summary"/>
+                <com.cootek.smartinput5.p066ui.settings.CustomizablePreference android:title="@string/optpage_visit_handwriting_provider_website" android:key="option_visit_handwriting_provider_website" android:summary="@string/handwriting_provider_website"/>
+            </com.cootek.smartinput5.func.resource.p055ui.TPreferenceScreen>
+        </com.cootek.smartinput5.func.resource.p055ui.TPreferenceCategory>
+    </com.cootek.smartinput5.func.resource.p055ui.TPreferenceScreen>
+</PreferenceScreen>

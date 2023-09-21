@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:orientation="vertical" android:background="#00ffffff" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/rlTitle" android:background="@drawable/bg_title" android:paddingBottom="4dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.cootek.smartinput5.func.resource.p055ui.TButton android:textSize="12dp" android:textColor="#fff" android:id="@+id/btnClose" android:background="@drawable/bg_btn" android:paddingBottom="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:layout_marginTop="8dp" android:layout_marginBottom="4dp" android:text="@string/close" android:layout_alignParentLeft="true"/>
+        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="20dp" android:textStyle="bold" android:textColor="#000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/share_dialog_title" android:layout_centerInParent="true"/>
+        <com.cootek.smartinput5.func.resource.p055ui.TButton android:textSize="12dp" android:textColor="#fff" android:id="@+id/btnSend" android:background="@drawable/bg_btn" android:paddingBottom="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginRight="6dp" android:layout_marginBottom="4dp" android:text="@string/send" android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:background="@drawable/bg_content" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:id="@+id/llImage" android:background="#00ffffff" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <RelativeLayout android:id="@+id/rlTotal" android:layout_width="match_parent" android:layout_height="30dp">
+                <LinearLayout android:gravity="center" android:id="@+id/ll_text_limit_unit" android:background="@drawable/bg_delwords" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="false" android:layout_centerVertical="true">
+                    <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textColor="#333" android:id="@+id/tv_text_limit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5dp" android:text="140"/>
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_delwords"/>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="3dp" android:layout_above="@+id/llImage" android:layout_alignParentTop="true">
+            <com.cootek.smartinput5.func.resource.p055ui.TEditText android:textColor="#000" android:gravity="top|left|center_vertical|center_horizontal|center" android:id="@+id/etEdit" android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="3dp" android:singleLine="false" android:inputType="none|text|textCapSentences|textMultiLine" android:isScrollContainer="true" android:imeOptions="actionDone"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

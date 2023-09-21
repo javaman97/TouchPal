@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:orientation="vertical" android:padding="@dimen/sponsor_notification_padding" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/icon" android:layout_width="wrap_content" android:layout_height="match_parent" android:scaleType="fitCenter"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/tail" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentRight="true">
+        <TextView android:textSize="@dimen/sponsor_notification_subtitle_size" android:textColor="#777777" android:gravity="center_vertical" android:id="@+id/time" android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1"/>
+        <ImageView android:layout_width="wrap_content" android:layout_height="0dp" android:src="@drawable/func_logo" android:scaleType="fitCenter" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/sponsor_notification_padding" android:paddingRight="@dimen/sponsor_notification_padding" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_toLeftOf="@+id/tail" android:layout_toRightOf="@+id/icon">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <TextView android:textSize="@dimen/sponsor_notification_subtitle_size" android:textColor="#ffffff" android:gravity="center" android:id="@+id/apply" android:background="@drawable/notification_apply_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:textSize="@dimen/sponsor_notification_title_size" android:textColor="#ffffff" android:gravity="center_vertical" android:id="@+id/title" android:paddingLeft="@dimen/sponsor_notification_padding" android:layout_width="0dp" android:layout_height="match_parent" android:singleLine="true" android:layout_weight="1"/>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/sponsor_notification_subtitle_size" android:textColor="#777777" android:gravity="center_vertical" android:id="@+id/content" android:layout_width="match_parent" android:layout_height="0dp" android:singleLine="true" android:layout_weight="1"/>
+    </LinearLayout>
+</RelativeLayout>

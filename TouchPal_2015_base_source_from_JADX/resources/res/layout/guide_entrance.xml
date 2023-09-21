@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:id="@+id/Guide" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.cootek.smartinput5.GuideMoveBackgroundView android:id="@+id/guide_move_bg_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:id="@+id/logo_group" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include android:id="@+id/logo" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/guide_log_title"/>
+        </RelativeLayout>
+        <FrameLayout android:id="@+id/guide_content" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <ImageView android:layout_gravity="top|center_vertical|center_horizontal|center" android:id="@+id/guide_slogan" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/new_guide_slogan"/>
+            <ScrollView android:gravity="center" android:id="@+id/guide_button_group" android:layout_width="match_parent" android:layout_height="wrap_content" android:fadeScrollbars="false">
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/guide_buttons" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            </ScrollView>
+        </FrameLayout>
+        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/new_guide_pivace_policy_text_size" android:textColor="@color/new_guide_user_privacy_text_color" android:gravity="center" android:id="@+id/privacy_link" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/guide_privacy_link_bottom_margin"/>
+    </LinearLayout>
+</FrameLayout>

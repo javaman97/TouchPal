@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:id="@+id/comma_popup_bg" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentBottom="true">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/comma_popup_content_panel" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/prediction_popup_panel" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/prediction_text_size" android:ellipsize="end" android:gravity="left|center_vertical|center_horizontal|center" android:layout_gravity="center_vertical" android:id="@+id/prediction_popup_text" android:layout_width="@dimen/prediction_text_width" android:layout_height="@dimen/prediction_text_height" android:layout_marginLeft="@dimen/comma_popup_text_margin" android:text="@string/prediction_text" android:singleLine="true"/>
+            <Button android:layout_gravity="center_vertical" android:id="@+id/prediction_button" android:layout_width="@dimen/comma_popup_switcher_width" android:layout_height="@dimen/comma_popup_switcher_height" android:layout_marginLeft="@dimen/comma_popup_text_margin" android:layout_marginRight="@dimen/comma_popup_text_margin"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

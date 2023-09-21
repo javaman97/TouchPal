@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:orientation="horizontal" android:paddingBottom="@dimen/dialer_recommender_btn_padding_vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textColor="@color/dialer_recommender_check_result_phone_number_text_color" android:id="@+id/phone_number" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1"/>
+    <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textColor="@color/dialer_recommender_check_result_content_text_color" android:ellipsize="end" android:id="@+id/content" android:layout_width="match_parent" android:layout_height="wrap_content" android:lines="1" android:scrollHorizontally="true" android:layout_weight="1"/>
+</LinearLayout>

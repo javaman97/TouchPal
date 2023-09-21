@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:orientation="vertical" android:background="@drawable/race_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:background="@drawable/race_title_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/race_name"/>
+    <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="24sp" android:textStyle="bold" android:textColor="#ffffffff" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="10dp" android:layout_marginBottom="5dp" android:text="@string/race_rank"/>
+    <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="16sp" android:textColor="#ff000000" android:id="@+id/topListTextView" android:background="@drawable/race_bg1" android:padding="5dp" android:scrollbars="none|horizontal|vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:text="1.XXXX" android:scrollHorizontally="true" android:layout_weight="1"/>
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/race_rank_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp">
+        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="20sp" android:textColor="#ff000000" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/race_your_best_rank"/>
+        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="20sp" android:textColor="#ff5a6990" android:id="@+id/myRankTextView" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="100"/>
+        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="20sp" android:textColor="#ff5a6990" android:id="@+id/myNameTextView" android:padding="5dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="Monkey" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="20dp">
+        <LinearLayout android:layout_width="20dp" android:layout_height="match_parent"/>
+        <com.cootek.smartinput5.func.resource.p055ui.TButton android:textSize="20sp" android:textColor="#ffffffff" android:id="@+id/buttonRetry" android:background="@drawable/race_btn_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/race_again" android:drawableLeft="@drawable/race_submit_icon" android:layout_weight="11"/>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="6"/>
+        <com.cootek.smartinput5.func.resource.p055ui.TButton android:textSize="20sp" android:textColor="#ffffffff" android:id="@+id/buttonExit" android:background="@drawable/race_btn_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/race_ok" android:drawableLeft="@drawable/race_exit_icon" android:layout_weight="11"/>
+        <LinearLayout android:layout_width="20dp" android:layout_height="match_parent"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.cootek.smartinput5.func.resource.p055ui.TEditText android:id="@+id/custom_skin_hidden_edit" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:inputType="textMultiLine"/>
+    <ImageView android:id="@+id/custom_skin_preview_image" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="centerInside" android:layout_alignParentBottom="true"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/custom_skin_btn_layout" android:layout_width="match_parent" android:layout_height="@dimen/skin_page_btn_height" android:layout_above="@+id/custom_skin_preview_image">
+        <com.cootek.smartinput5.func.resource.p055ui.TButton android:textColor="#747474" android:id="@+id/custom_skin_cancel_btn" android:background="@drawable/custom_skin_cancel_btn_bg" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/cancel" android:layout_weight="1"/>
+        <com.cootek.smartinput5.func.resource.p055ui.TButton android:textColor="#ffffff" android:id="@+id/custom_skin_save_btn" android:background="@drawable/custom_skin_save_btn_bg" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/save" android:layout_weight="1"/>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/custom_skin_btn_layout" android:layout_alignParentTop="true">
+        <RelativeLayout android:id="@+id/custom_skin_title" android:background="@color/skin_page_title_bg_color" android:layout_width="match_parent" android:layout_height="@dimen/skin_page_title_height" android:layout_alignParentTop="true">
+            <ImageButton android:id="@+id/custom_skin_back" android:background="@drawable/skin_page_back_ctrl" android:padding="@dimen/skin_page_title_icon_padding" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/skin_page_back_icon" android:scaleType="centerInside" android:layout_alignParentLeft="true"/>
+            <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/skin_page_title_text_size" android:textColor="@color/skin_page_title_text_color" android:gravity="left|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/customize_skin_title_text" android:layout_toRightOf="@+id/custom_skin_back"/>
+        </RelativeLayout>
+        <ScrollView android:id="@+id/custom_items_scroll" android:scrollbars="vertical" android:fadingEdge="none" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/custom_skin_title" android:overScrollMode="never">
+            <LinearLayout android:orientation="vertical" android:id="@+id/custom_skin_option_layout" android:background="@color/custom_skin_bg" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </ScrollView>
+        <View android:background="@drawable/skin_page_title_shadow" android:layout_width="match_parent" android:layout_height="@dimen/skin_page_shadow_height" android:layout_alignTop="@+id/custom_items_scroll"/>
+        <View android:background="@drawable/skin_page_bottom_shadow" android:layout_width="match_parent" android:layout_height="@dimen/skin_page_shadow_height" android:layout_alignBottom="@+id/custom_items_scroll"/>
+    </RelativeLayout>
+</RelativeLayout>

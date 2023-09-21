@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:orientation="vertical" android:id="@+id/dialog_frame" android:background="@drawable/bg_dialog" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/title_frame" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="24sp" android:textColor="@color/paopao_dialog_title_text_color" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/title" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:minHeight="40dp" android:singleLine="true"/>
+    </LinearLayout>
+    <FrameLayout android:orientation="vertical" android:id="@+id/content_frame" android:padding="0dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

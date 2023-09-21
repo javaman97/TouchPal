@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput">
+    <item android:left="2dp" android:right="2dp">
+        <shape android:shape="oval">
+            <solid android:color="@color/guide_intro_green_h"/>
+            <size android:height="10dp" android:width="10dp"/>
+        </shape>
+    </item>
+</layer-list>

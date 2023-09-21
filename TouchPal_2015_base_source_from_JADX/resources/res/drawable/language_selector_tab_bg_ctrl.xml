@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput">
+    <item android:state_selected="true" android:drawable="@drawable/language_selector_tab_bg_h"/>
+    <item android:state_pressed="true" android:drawable="@drawable/language_selector_tab_bg_h"/>
+    <item android:drawable="@color/language_dialog_subtype_bg_color"/>
+</selector>

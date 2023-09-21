@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:orientation="vertical" android:background="@drawable/bg_dialog_btn_ctrl" android:paddingLeft="@dimen/tutorial_item_padding" android:paddingRight="@dimen/tutorial_item_padding" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tutorial_circle"/>
+        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/tutorial_text_size" android:textColor="@color/tutorial_text_color" android:gravity="center_vertical" android:id="@+id/text" android:paddingLeft="10dp" android:layout_width="match_parent" android:layout_height="@dimen/tutorial_item_height"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/line" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/wizard_grey_line" android:scaleType="fitXY"/>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="adjust_userword_priority_title">30sp</dimen>
+    <dimen name="dialog_title_textSize">30sp</dimen>
+    <dimen name="dlg_btn_textsize">26sp</dimen>
+    <dimen name="extend_key_padding">6dp</dimen>
+    <dimen name="extend_key_width">60dp</dimen>
+    <dimen name="function_bar_btn_width">110dp</dimen>
+    <dimen name="preview_extendkey_flag_textsize">28sp</dimen>
+    <dimen name="preview_extendkey_textsize">50sp</dimen>
+    <dimen name="preview_textsize">50dp</dimen>
+    <dimen name="preview_textsize_large">60dp</dimen>
+    <dimen name="preview_width">180dp</dimen>
+    <dimen name="shortcut_plugin_bar_margin">0dp</dimen>
+</resources>

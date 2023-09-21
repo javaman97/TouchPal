@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="HANDWRITE_TARGET_VERSION">
+        <item>@string/HANDWRITE_SINGLE_TARGET_VERSION</item>
+        <item>@string/HANDWRITE_MULTI_TARGET_VERSION</item>
+        <item>@string/HANDWRITE_CLOUD_TARGET_VERSION</item>
+    </array>
+    <array name="accessibility_paopao_panels">
+        <item>quick setting panel</item>
+        <item>theme switcher panel</item>
+        <item>news panel</item>
+        <item>more panel</item>
+    </array>
+    <array name="app_id_handwrite_data">
+        <item>@string/app_id_handwrite_single_data</item>
+        <item>@string/app_id_handwrite_multi_data</item>
+        <item>@string/app_id_handwrite_cloud_data</item>
+    </array>
+    <array name="auto_update_key">
+        <item>@string/optpage_only_wifi</item>
+        <item>@string/optpage_update_week</item>
+        <item>@string/optpage_update_month</item>
+        <item>@string/optpage_update_dic_manually</item>
+    </array>
+    <array name="auto_update_value">
+        <item>-1</item>
+        <item>7</item>
+        <item>30</item>
+        <item>@null</item>
+    </array>
+    <array name="candidate_size_key">
+        <item>@string/optpage_big_keyboard</item>
+        <item>@string/optpage_middle_keyboard</item>
+        <item>@string/optpage_small_keyboard</item>
+    </array>
+    <array name="candidate_size_scale">
+        <item>4</item>
+        <item>2</item>
+        <item>@null</item>
+    </array>
+    <array name="candidate_size_value">
+        <item>4</item>
+        <item>2</item>
+        <item>@null</item>
+    </array>
+    <array name="cloke_enable_mode_key">
+        <item>@string/optpage_cloke_enable_wifi_only</item>
+        <item>@string/optpage_cloke_enable_any_time</item>
+        <item>@string/optpage_cloke_enable_never</item>
+    </array>
+    <array name="cloke_enable_mode_value">
+        <item>@null</item>
+        <item>1</item>
+        <item>2</item>
+    </array>
+    <array name="config_file_compact">
+        <item>config_compact.xml</item>
+    </array>
+    <array name="config_file_economic">
+        <item>config_economic.xml</item>
+    </array>
+    <array name="config_file_name_buildin">
+    </array>
+    <array name="config_file_name_buildin_oem_only_const">
+        <item>file:///android_data/touchpal.config.oem.xml</item>
+        <item>file:///android_data/system_lib_touchpal.config.oem.xml</item>
+        <item>file:///android_data/system_etc_touchpal.config.oem.xml</item>
+    </array>
+    <array name="config_file_name_buildin_online_only">
+        <item>config_online_only.xml</item>
+    </array>
+    <array name="config_file_name_buildin_reserved">
+        <item>config_install_info.xml</item>
+        <item>config_temp_forbid.xml</item>
+    </array>
+    <array name="config_file_path">
+    </array>
+    <array name="download_limitations">
+        <item>2</item>
+        <item>1</item>
+    </array>
+    <array name="dummy_item_text">
+        <item>@string/dummy_item_1</item>
+        <item>@string/dummy_item_2</item>
+        <item>@string/dummy_item_3</item>
+        <item>@string/dummy_item_4</item>
+        <item>@string/dummy_item_5</item>
+    </array>
+    <array name="emoji_display_candidate_titles">
+        <item>@string/emoji_display_classic</item>
+        <item>@string/emoji_display_system</item>
+    </array>
+    <array name="favorite_url_list_description">
+        <item>Baidu</item>
+        <item>Google</item>
+        <item>Sina</item>
+        <item>NetEase</item>
+        <item>TouchPal</item>
+    </array>
+    <array name="favorite_url_list_url">
+        <item>http://www.baidu.com</item>
+        <item>http://www.google.com</item>
+        <item>http://www.sina.com.cn</item>
+        <item>http://www.163.com</item>
+        <item>http://www.touchpal.com</item>
+    </array>
+    <array name="height_zoom_scale">
+        <item>1</item>
+    </array>
+    <array name="invitation_code_list">
+        <item>CT540K</item>
+        <item>TP540L</item>
+    </array>
+    <array name="keyboard_subtype_key">
+        <item>@string/optpage_phonepad</item>
+        <item>@string/optpage_fullqwerty</item>
+        <item>@string/optpage_tplus</item>
+    </array>
+    <array name="keyboard_subtype_value">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </array>
+    <array name="lang_layout_key">
+        <item>@string/optpage_full_keyboard_qwerty</item>
+        <item>@string/optpage_full_keyboard_qwertz</item>
+        <item>@string/optpage_full_keyboard_azerty</item>
+        <item>@string/optpage_full_keyboard_custom1</item>
+        <item>@string/optpage_full_keyboard_custom2</item>
+        <item>@string/optpage_full_keyboard_custom3</item>
+    </array>
+    <array name="lang_layout_value">
+        <item>1</item>
+        <item>3</item>
+        <item>2</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </array>
+    <array name="language_switch_mode_titles">
+        <item>@string/language_switch_mode_space</item>
+        <item>@string/language_switch_mode_lang</item>
+    </array>
+    <array name="lib_load_path">
+    </array>
+    <array name="longPressListOptionsWithMinibrowserDisabled">
+        <item>@string/yssdk_copy</item>
+        <item>@string/yssdk_open_in_browser</item>
+    </array>
+    <array name="longPressListOptionsWithMinibrowserEnabled">
+        <item>@string/yssdk_open</item>
+        <item>@string/yssdk_copy</item>
+    </array>
+    <array name="optpage_share_types">
+        <item>@string/optpage_share_types_twitter</item>
+        <item>@string/optpage_share_type_facebook</item>
+        <item>@string/optpage_share_type_others</item>
+    </array>
+    <array name="paopao_teaching_summaries">
+        <item>@string/paopao_teaching_summary</item>
+        <item>@string/paopao_teaching_summary</item>
+        <item>@string/paopao_teaching_summary</item>
+        <item />
+        <item />
+        <item>@string/optpage_tutorial_summary</item>
+        <item />
+    </array>
+    <array name="paopao_teaching_titles">
+        <item>@string/paopao_teaching_titles_1</item>
+        <item>@string/paopao_teaching_titles_2</item>
+        <item>@string/paopao_teaching_titles_3</item>
+        <item />
+        <item />
+        <item>@string/optpage_tutorial_title</item>
+        <item />
+    </array>
+    <array name="phone_size_scale_in_zoom_mode">
+        <item>1</item>
+        <item>100</item>
+    </array>
+    <array name="popup_preview_key">
+        <item>@string/optpage_preview_close</item>
+        <item>@string/optpage_preview_normal</item>
+        <item>@string/optpage_preview_advanced</item>
+    </array>
+    <array name="popup_preview_value">
+        <item>@null</item>
+        <item>1</item>
+        <item>2</item>
+    </array>
+    <array name="portrait_keyboard_size_key">
+        <item>@string/optpage_huge_keyboard</item>
+        <item>@string/optpage_big_keyboard</item>
+        <item>@string/optpage_middle_keyboard</item>
+        <item>@string/optpage_small_keyboard</item>
+        <item>@string/optpage_min_keyborad</item>
+    </array>
+    <array name="portrait_keyboard_size_scale_large_model">
+        <item>20</item>
+        <item>12</item>
+        <item>@null</item>
+        <item>-8</item>
+        <item>-16</item>
+    </array>
+    <array name="portrait_keyboard_size_scale_middle_model">
+        <item>18</item>
+        <item>9</item>
+        <item>@null</item>
+        <item>-6</item>
+        <item>-12</item>
+    </array>
+    <array name="portrait_keyboard_size_scale_small_model">
+        <item>15</item>
+        <item>7</item>
+        <item>@null</item>
+        <item>-5</item>
+        <item>-10</item>
+    </array>
+    <array name="portrait_keyboard_size_value">
+        <item>2</item>
+        <item>1</item>
+        <item>@null</item>
+        <item>-1</item>
+        <item>-2</item>
+    </array>
+    <array name="portrait_layout_key">
+        <item>@string/optpage_phonepad</item>
+        <item>@string/optpage_fullqwerty</item>
+        <item>@string/optpage_tplus</item>
+    </array>
+    <array name="safe_search_options">
+        <item>@string/yssdk_safesearch_strict</item>
+        <item>@string/yssdk_safesearch_moderate</item>
+        <item>@string/yssdk_safesearch_off</item>
+    </array>
+    <array name="safe_search_values">
+        <item>r</item>
+        <item>i</item>
+        <item>p</item>
+    </array>
+    <array name="search_history_options">
+        <item>@string/yssdk_search_history_enabled</item>
+        <item>@string/yssdk_search_history_disabled</item>
+    </array>
+    <array name="search_history_values">
+        <item>on</item>
+        <item>off</item>
+    </array>
+    <array name="shuangpin_enable_mode_key">
+        <item>@string/optpage_shuangpin_enable_none</item>
+        <item>@string/optpage_shuangpin_enable_zr</item>
+        <item>@string/optpage_shuangpin_enable_jj</item>
+        <item>@string/optpage_shuangpin_enable_xh</item>
+        <item>@string/optpage_shuangpin_enable_zn</item>
+        <item>@string/optpage_shuangpin_enable_ms</item>
+        <item>@string/optpage_shuangpin_enable_sg</item>
+        <item>@string/optpage_shuangpin_enable_zg</item>
+    </array>
+    <array name="shuangpin_enable_mode_value">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </array>
+    <array name="stroke_color_key">
+        <item>@string/optpage_strokecolor_red</item>
+        <item>@string/optpage_strokecolor_blue</item>
+        <item>@string/optpage_strokecolor_yellow</item>
+        <item>@string/optpage_strokecolor_green</item>
+    </array>
+    <array name="stroke_color_value">
+        <item>#FF0000</item>
+        <item>@string/stroke_color_value_default</item>
+        <item>#FFFF00</item>
+        <item>#00FF00</item>
+    </array>
+    <array name="symbol_keyboard_layout_key">
+        <item>@string/optpage_symbol_keyboard_12</item>
+        <item>@string/optpage_symbol_keyboard_26</item>
+        <item>@string/optpage_symbol_keyboard_default</item>
+    </array>
+    <array name="symbol_keyboard_layout_value">
+        <item>@null</item>
+        <item>1</item>
+        <item>2</item>
+    </array>
+    <array name="v4_package_name_arabics">
+        <item>com.cootek.smartinputv5.language.arabian</item>
+    </array>
+    <array name="v4_package_name_romanians">
+        <item>com.cootek.smartinputv5.language.romanian</item>
+    </array>
+    <array name="voice_chinese_candidate_titles">
+        <item>@string/voice_mandarin</item>
+        <item>@string/voice_cantonese</item>
+        <item>@string/voice_tw</item>
+    </array>
+    <array name="voice_chinese_ids">
+        <item>zh_CN</item>
+        <item>zh_HK</item>
+        <item>zh_TW</item>
+    </array>
+    <array name="width_zoom_scale">
+        <item>0.8</item>
+    </array>
+</resources>

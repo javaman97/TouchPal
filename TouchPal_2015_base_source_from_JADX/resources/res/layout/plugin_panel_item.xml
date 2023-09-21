@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:orientation="vertical" android:id="@+id/root" android:paddingLeft="@dimen/plugin_panel_item_padding_left" android:paddingTop="@dimen/plugin_panel_item_padding_top" android:paddingRight="@dimen/plugin_panel_item_padding_right" android:paddingBottom="@dimen/plugin_panel_item_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/icon_panel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/plugin_panel_item_icon_margin" android:layout_marginTop="@dimen/plugin_panel_item_icon_margin" android:layout_marginRight="@dimen/plugin_panel_item_icon_margin">
+        <ImageView android:layout_gravity="center" android:id="@+id/icon_frame" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <include layout="@layout/guide_point_tag_view"/>
+    </RelativeLayout>
+    <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/plugin_panel_title_textsize" android:textColor="@color/plugin_panel_title_color" android:gravity="top|center_vertical|center_horizontal|center" android:layout_gravity="center_horizontal" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="-1dp" android:layout_marginRight="-1dp" android:lines="2"/>
+</LinearLayout>

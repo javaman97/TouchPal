@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/twitter_learn_text_size" android:id="@+id/title" android:padding="@dimen/twitter_learn_title_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/learn_twitter_message"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/follow_frame" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.cootek.smartinput5.func.resource.p055ui.TCheckBox android:layout_gravity="center_vertical" android:id="@+id/follow_check_box" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/follow_text" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/learn_twitter_follow_us" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/tweet_frame" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.cootek.smartinput5.func.resource.p055ui.TCheckBox android:layout_gravity="center_vertical" android:id="@+id/tweet_check_box" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/tweet_text" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/learn_twitter_tweet" android:layout_weight="1"/>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.cootek.smartinput5.func.resource.p055ui.TEditText android:id="@+id/tweet_share_content" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:id="@+id/tweet_number_limitation" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignRight="@+id/tweet_share_content" android:layout_alignBottom="@+id/tweet_share_content"/>
+    </RelativeLayout>
+</LinearLayout>

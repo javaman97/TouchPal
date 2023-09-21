@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:background="@drawable/baidu_pcs_guide_bg" android:padding="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.cootek.smartinput5.func.resource.p055ui.TButton android:textSize="@dimen/dialer_recommender_btn_text_size" android:textColor="@color/dialer_recommender_btn_text_color" android:id="@+id/backup_now" android:background="@drawable/commercial_highlight_btn_ctrl" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:text="@string/baidu_pcs_guide_start" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

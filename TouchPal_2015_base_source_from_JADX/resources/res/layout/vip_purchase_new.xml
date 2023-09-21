@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/vip_settings_title_bg" android:layout_width="match_parent" android:layout_height="@dimen/vip_setting_title_height">
+        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/vip_setting_title_text_size" android:textColor="@color/vip_title_color" android:gravity="center_vertical" android:padding="@dimen/vip_setting_title_padding" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/optpage_vip" android:layout_weight="1"/>
+        <LinearLayout android:gravity="center" android:id="@+id/refresh_frame" android:background="@drawable/vip_btn_bg_ctl" android:layout_width="@dimen/vip_setting_btn_width" android:layout_height="match_parent">
+            <ImageView android:id="@+id/refresh_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/vip_refresh"/>
+        </LinearLayout>
+        <ImageButton android:id="@+id/info_btn" android:background="@drawable/vip_btn_bg_ctl" android:layout_width="@dimen/vip_setting_btn_width" android:layout_height="match_parent" android:src="@drawable/vip_settings"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/vip_icon" android:layout_width="match_parent" android:layout_height="@dimen/vip_icon_bg_height"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@color/vip_purchase_btn_text_color" android:paddingLeft="@dimen/vip_button_item_padding_horizontal" android:paddingTop="@dimen/vip_button_item_padding_vertical" android:paddingRight="@dimen/vip_button_item_padding_horizontal" android:layout_width="match_parent" android:layout_height="@dimen/vip_purchase_row_height">
+        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/vip_state_text_size" android:gravity="center_vertical" android:id="@+id/lock_state_text" android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="2"/>
+        <LinearLayout android:gravity="center" android:id="@+id/upgrade_frame" android:background="@drawable/mission_finish_btn_ctrl" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="3">
+            <ImageView android:id="@+id/upgrade_refresh_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/vip_refresh"/>
+            <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/vip_purchase_btn_text_size" android:textColor="@color/vip_purchase_btn_text_color" android:gravity="center" android:id="@+id/upgrade_price" android:paddingLeft="@dimen/vip_feature_item_padding_horizontal" android:paddingRight="@dimen/vip_feature_item_padding_horizontal" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="match_parent" android:maxLines="1"/>
+        </LinearLayout>
+        <ImageView android:id="@+id/vip_bg9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bg"/>
+    </LinearLayout>
+    <ListView android:id="@+id/feature_list" android:background="@color/vip_feature_list_color" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+</LinearLayout>

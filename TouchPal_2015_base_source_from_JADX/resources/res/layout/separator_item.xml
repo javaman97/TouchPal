@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/usr_word_head_title_text_size" android:textStyle="bold" android:textColor="@color/usr_word_head_text_color" android:gravity="center_vertical" android:id="@+id/header_view" android:background="@color/usr_word_head_bg_color" android:paddingLeft="@dimen/usr_word_btn_padding_horizontal" android:layout_width="match_parent" android:layout_height="@dimen/usr_word_head_height"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/content_frame" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.cootek.smartinput5.func.resource.p055ui.TCheckBox android:id="@+id/checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/paopao_checkbox"/>
+        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/usr_word_item_title_text_size" android:textColor="@color/usr_word_editor_title_text_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/content" android:paddingLeft="@dimen/usr_word_btn_padding_horizontal" android:paddingRight="@dimen/usr_word_btn_padding_horizontal_large" android:layout_width="match_parent" android:layout_height="@dimen/usr_word_item_height"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.cootek.smartinput5.func.resource.p055ui.TTextView android:id="@+id/tv_tip" android:paddingLeft="8dp" android:paddingTop="8dp" android:paddingRight="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/invitation_tip"/>
+    <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textColor="@android:color/white" android:id="@+id/active_way_tips" android:paddingLeft="8dp" android:paddingTop="8dp" android:paddingRight="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/invitation_active_way_tips"/>
+    <com.cootek.smartinput5.func.resource.p055ui.TButton android:gravity="center" android:id="@+id/active_by_twitter" android:padding="4dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="8dp" android:layout_marginRight="8dp" android:text="@string/invitation_active_by_twitter"/>
+    <com.cootek.smartinput5.func.resource.p055ui.TButton android:gravity="center" android:id="@+id/active_by_code" android:padding="4dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="8dp" android:layout_marginRight="8dp" android:text="@string/invitation_code"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/active_by_code_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="8dp" android:layout_marginRight="8dp">
+        <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:src="@drawable/wizard_grey_line"/>
+        <com.cootek.smartinput5.func.resource.p055ui.TEditText android:gravity="center" android:id="@+id/et_invitation_code" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/invitation_code" android:singleLine="true" android:layout_weight="1" android:inputType="textEmailAddress"/>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.cootek.smartinput5.func.resource.p055ui.TButton android:gravity="center" android:id="@+id/negative_button" android:padding="4dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1"/>
+            <com.cootek.smartinput5.func.resource.p055ui.TButton android:gravity="center" android:id="@+id/active_button" android:padding="4dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/invitation_active" android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

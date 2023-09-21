@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:shape="rectangle">
+    <size android:height="@dimen/smiley_drag_bar_mask_height" android:width="@dimen/smiley_drag_bar_mask_height"/>
+    <solid android:color="@color/smiley_drag_bar_bottom_mask_color"/>
+</shape>

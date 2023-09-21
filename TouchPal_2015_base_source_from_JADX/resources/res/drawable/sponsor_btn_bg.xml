@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/sponsor_blue_color_h"/>
+            <corners android:bottomLeftRadius="@dimen/sponsor_skin_preview_corner" android:bottomRightRadius="@dimen/sponsor_skin_preview_corner"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/sponsor_blue_color"/>
+            <corners android:bottomLeftRadius="@dimen/sponsor_skin_preview_corner" android:bottomRightRadius="@dimen/sponsor_skin_preview_corner"/>
+        </shape>
+    </item>
+</selector>

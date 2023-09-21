@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:background="@color/language_dialog_bg_color" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/dialog_title_textSize" android:textColor="@color/paopao_dialog_title_text_color" android:gravity="center_vertical" android:id="@+id/title" android:padding="@dimen/paopao_title_left_padding" android:layout_width="match_parent" android:layout_height="@dimen/paopao_dlg_title_height"/>
+        <View android:background="@color/paopao_title_line_color" android:layout_width="match_parent" android:layout_height="@dimen/paopao_button_line_width"/>
+        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/paopao_content_text_size" android:textColor="@color/paopao_dialog_content_color" android:id="@+id/switch_content" android:padding="@dimen/paopao_content_padding" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <com.cootek.smartinput5.p066ui.BottomBtnsFrame android:id="@+id/buttons_frame" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:background="@color/skin_page_title_bg_color" android:layout_width="match_parent" android:layout_height="@dimen/skin_page_title_height">
+    <ImageView android:id="@+id/skin_page_icon" android:padding="@dimen/skin_page_title_icon_padding" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/skin_page_title_icon" android:scaleType="centerInside"/>
+    <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/skin_page_title_text_size" android:textColor="@color/skin_page_title_text_color" android:gravity="left|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/skin_page_title" android:layout_toRightOf="@+id/skin_page_icon"/>
+</RelativeLayout>

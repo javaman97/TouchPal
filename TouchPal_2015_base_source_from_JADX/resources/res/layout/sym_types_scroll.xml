@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cootek.smartinput5.p066ui.SymTypesScroll xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" xmlns:ns1="http://schemas.android.com/apk/res/com.emoji.keyboard.touchpal" ns1:keyWidth="16%p" xmlns:ns2="http://schemas.android.com/apk/res/com.emoji.keyboard.touchpal" ns2:keyHeight="80%p">
+    <com.cootek.smartinput5.p066ui.SoftKeyboardView android:id="@+id/emotion_scroll" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentBottom="true" xmlns:ns3="http://schemas.android.com/apk/res/com.emoji.keyboard.touchpal" ns3:bufferTag="3" style="@style/sym_types_view"/>
+</com.cootek.smartinput5.p066ui.SymTypesScroll>

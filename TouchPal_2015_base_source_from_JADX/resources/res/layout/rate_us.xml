@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:theme="@style/Theme.NoTitleBar" android:orientation="vertical" android:background="@drawable/bg_rate_us" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:paddingTop="10dp" android:paddingBottom="1dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageButton android:layout_gravity="center" android:id="@+id/rate_us_back_btn" android:background="#00000000" android:layout_width="35dp" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:src="@drawable/rate_us_btn_back"/>
+            <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textAppearance="?android:attr/textAppearanceLarge" android:textColor="#3dcde8" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:text="@string/optpage_rate_us_title" android:layout_weight="1"/>
+            <ImageButton android:layout_gravity="center" android:id="@+id/rate_us_btn_share" android:background="#00000000" android:layout_width="38dp" android:layout_height="wrap_content" android:layout_marginRight="5dp" android:src="@drawable/share_btn"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/rate_us_layout_margin_side" android:paddingRight="@dimen/rate_us_layout_margin_side" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+            <View android:background="#3cc3dc" android:layout_width="wrap_content" android:layout_height="0.5dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/rate_us_frame" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@+id/rate_us_share_frame" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <LinearLayout android:orientation="horizontal" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_weight="1">
+                <ImageView android:id="@+id/efficiency_logo_img" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/typing_efficiency_logo" android:layout_weight="1"/>
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                    <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/rate_us_stats_title_text_size" android:textColor="#10da88" android:gravity="center" android:layout_gravity="center" android:id="@+id/efficiency_txt_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/typing_efficiency" android:singleLine="true" android:layout_weight="1"/>
+                    <HorizontalScrollView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="3">
+                        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/rate_us_stats_content_text_size" android:textColor="#18d941" android:layout_gravity="center" android:id="@+id/efficiency_txt_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="333"/>
+                    </HorizontalScrollView>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/typos_corrected_log" android:layout_weight="1"/>
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                    <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/rate_us_stats_title_text_size" android:textColor="#10da88" android:gravity="center" android:layout_gravity="center" android:id="@+id/corrected_txt_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/typos_corrected" android:singleLine="true" android:layout_weight="1"/>
+                    <HorizontalScrollView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="3">
+                        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/rate_us_stats_content_text_size" android:textColor="#10da88" android:layout_gravity="center" android:id="@+id/corrected_txt_content" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+                    </HorizontalScrollView>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/strokes_saved_logo" android:layout_weight="1"/>
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                    <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/rate_us_stats_title_text_size" android:textColor="#10da88" android:gravity="center" android:layout_gravity="center" android:id="@+id/strokes_txt_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strokes_saved" android:singleLine="true" android:layout_weight="1"/>
+                    <HorizontalScrollView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="3">
+                        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/rate_us_stats_content_text_size" android:textColor="#10da88" android:layout_gravity="center" android:id="@+id/strokes_txt_content" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                    </HorizontalScrollView>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@+id/rate_us_area" android:paddingTop="20dp" android:paddingBottom="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/rate_us_layout_margin_side" android:layout_marginTop="10dp" android:layout_marginRight="@dimen/rate_us_layout_margin_side">
+            <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="@color/rate_us_tips_text_color" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/love_using_touchpal"/>
+            <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="@color/rate_us_tips_text_color" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/please_rate_us"/>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:paddingTop="10dp" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="0dp" android:layout_marginBottom="5dp">
+            <com.cootek.smartinput5.func.resource.p055ui.TButton android:layout_gravity="center" android:id="@+id/rate_us_btn_rate" android:background="@drawable/rate_us_btn_ctrl" android:layout_width="match_parent" android:layout_height="@dimen/rate_us_btn_height" android:layout_marginLeft="@dimen/rate_us_btn_margin_side" android:layout_marginRight="@dimen/rate_us_btn_margin_side" android:text="@string/support_us_rate" android:layout_weight="1"/>
+            <com.cootek.smartinput5.func.resource.p055ui.TButton android:textColor="@color/rate_us_later_btn_text_color" android:layout_gravity="center" android:id="@+id/rate_us_btn_later" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="@dimen/rate_us_btn_height" android:layout_marginLeft="@dimen/rate_us_btn_margin_side" android:layout_marginRight="@dimen/rate_us_btn_margin_side" android:text="@string/already_rated" android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

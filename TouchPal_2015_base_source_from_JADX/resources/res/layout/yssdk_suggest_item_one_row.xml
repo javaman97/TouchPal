@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:id="@+id/card" android:background="@drawable/yssdk_searchassist_bgd" android:layout_width="match_parent" android:layout_height="48dp" style="@style/Search.Suggest.Container.Card">
+    <ImageView android:layout_gravity="left" android:id="@+id/image_icon" android:padding="8dp" style="@style/Search.Suggest.Container.Icon.Contact"/>
+    <TextView android:textColor="@color/yssdk_gray" android:gravity="center" android:layout_gravity="left" android:id="@+id/text_icon" android:background="@drawable/yssdk_searchassist_bgd" android:visibility="gone" android:text="@string/yssdk_history_icon" style="@style/Search.Suggest.Container.Icon.Contact"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="16sp" android:textColor="#000000" android:ellipsize="start" android:gravity="center_vertical" android:id="@+id/text" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="49dp" android:text="Stephanie Ciancio" android:maxLines="1" android:singleLine="true"/>
+        <View android:id="@+id/queryBorderBottom" android:background="#cccccc" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginLeft="49dp" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_main_only_text_size">26dp</dimen>
+    <dimen name="bihua_composition_height">44dp</dimen>
+    <dimen name="button_textsize">17sp</dimen>
+    <dimen name="cht_keyboard_main_only_text_size">24dp</dimen>
+    <dimen name="cht_phonepad_main_only_text_size">19dp</dimen>
+    <dimen name="en_lang_sym_textsize">18dp</dimen>
+    <dimen name="keyboard_alt_text_size">14dp</dimen>
+    <dimen name="keyboard_alt_text_size_small">13dp</dimen>
+    <dimen name="keyboard_main_only_text_size">21dp</dimen>
+    <dimen name="keyboard_main_text_size">23dp</dimen>
+    <dimen name="keyboard_main_text_size_small">21dp</dimen>
+    <dimen name="number_keyboard_main_only_text_size">26dp</dimen>
+    <dimen name="space_button_textsize">13sp</dimen>
+    <dimen name="rate_us_stats_content_text_size">35dp</dimen>
+    <dimen name="rate_us_stats_title_text_size">18dp</dimen>
+    <dimen name="drawer_pin_guide_title_text_size">7sp</dimen>
+</resources>

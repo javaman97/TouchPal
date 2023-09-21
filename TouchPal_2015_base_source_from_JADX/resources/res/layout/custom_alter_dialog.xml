@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/paopao_content_text_size" android:textColor="@color/paopao_dialog_content_color" android:gravity="center" android:id="@+id/msg_image_title" android:paddingLeft="@dimen/paopao_content_midsize_padding" android:paddingTop="@dimen/paopao_content_midsize_padding" android:paddingRight="@dimen/paopao_content_midsize_padding" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ImageView android:id="@+id/msg_image" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/paopao_content_midsize_padding" android:layout_marginTop="@dimen/paopao_content_midsize_padding" android:layout_marginRight="@dimen/paopao_content_midsize_padding" android:scaleType="fitCenter"/>
+    </LinearLayout>
+    <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/paopao_content_text_size" android:textColor="@color/paopao_dialog_content_color" android:id="@+id/message" android:padding="@dimen/paopao_content_midsize_padding" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/paopao_category_title_textsize" android:textColor="@color/paopao_dialog_summary_text_color" android:id="@+id/attached_message" android:padding="@dimen/paopao_item_top_padding" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/extra" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

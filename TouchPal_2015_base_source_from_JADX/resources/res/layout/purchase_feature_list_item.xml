@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/vip_feature_item_padding_horizontal" android:paddingTop="@dimen/vip_feature_item_padding_vertical" android:paddingRight="@dimen/vip_feature_item_padding_horizontal" android:paddingBottom="@dimen/vip_feature_item_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="top" android:orientation="horizontal" android:background="@drawable/vip_feature_item_bg" android:padding="@dimen/vip_feature_item_padding" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/img" android:layout_width="@dimen/vip_feature_img_width" android:layout_height="@dimen/vip_feature_img_height" android:scaleType="fitXY"/>
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/vip_feature_item_title_padding" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/vip_feature_item_title_text_size" android:textColor="@color/vip_purchase_feature_item_title_color" android:gravity="left" android:id="@+id/title" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+                <com.cootek.smartinput5.func.resource.p055ui.TButton android:textSize="@dimen/vip_feature_enable_text_size" android:textColor="@color/vip_feature_enable_text_color" android:gravity="center" android:layout_gravity="right" android:id="@+id/action_btn" android:background="@drawable/vip_feature_item_enable_btn_ctl" android:padding="0dp" android:layout_width="wrap_content" android:layout_height="@dimen/vip_feature_enable_btn_height"/>
+            </LinearLayout>
+            <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/vip_feature_item_subtitle_text_size" android:textColor="@color/vip_purchase_feature_item_subtitle_color" android:gravity="center_vertical" android:id="@+id/subtitle" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

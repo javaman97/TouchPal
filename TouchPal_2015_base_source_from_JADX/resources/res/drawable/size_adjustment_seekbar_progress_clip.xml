@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clip xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:gravity="left" android:drawable="@drawable/size_adjustment_seekbar_progress" android:clipOrientation="horizontal"/>

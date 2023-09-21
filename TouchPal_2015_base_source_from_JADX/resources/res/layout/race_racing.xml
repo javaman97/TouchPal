@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:orientation="vertical" android:background="@drawable/race_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:isScrollContainer="true">
+    <FrameLayout android:id="@+id/frameLayout1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+        <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:background="@drawable/race_text_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp">
+            <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="16sp" android:textColor="#ff000000" android:id="@+id/sampleTextView" android:paddingTop="5dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="20dp" android:minLines="3" android:layout_weight="1"/>
+            <com.cootek.smartinput5.func.resource.p055ui.TTextView android:gravity="right" android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/watchTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00\100/00"/>
+        </LinearLayout>
+        <ImageView android:layout_gravity="top|left|center_vertical|center_horizontal|center" android:id="@+id/buttonPause" android:background="@drawable/race_pause_btn_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2dp" android:layout_marginTop="2dp"/>
+    </FrameLayout>
+    <com.cootek.smartinput5.plugin.typingrace.TREditText android:id="@+id/userTextView" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:maxLines="2"/>
+</LinearLayout>

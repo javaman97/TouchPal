@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/sym_types_bg" android:top="@dimen/key_padding_outer_bottom" android:bottom="@dimen/key_padding_outer_bottom"/>
+</layer-list>

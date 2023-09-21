@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput">
+    <item android:state_pressed="true">
+        <color android:color="@color/skin_page_title_bg_color_h"/>
+    </item>
+</selector>

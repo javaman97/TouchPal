@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="15dp" android:id="@+id/tv_special_thanks" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/translator_list_info"/>
+    </ScrollView>
+    <com.cootek.smartinput5.func.resource.p055ui.TButton android:textSize="15dp" android:layout_gravity="bottom" android:id="@+id/tv_visit_getlocalization_website" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/visit_getlocalization_website_title"/>
+</LinearLayout>

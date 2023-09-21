@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:orientation="vertical" android:id="@+id/alert_frame" android:padding="20dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="20dp" android:layout_marginRight="20dp" android:layout_marginBottom="20dp">
+    <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="20sp" android:textColor="#000000" android:id="@+id/message" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="empty"/>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:layout_marginBottom="3dp" android:layout_alignParentBottom="true">
+        <com.cootek.smartinput5.func.resource.p055ui.TButton android:textSize="@dimen/dlg_btn_textsize" android:textColor="#ffffff" android:id="@+id/ok" android:background="@drawable/dlg_btn_left_ctrl" android:layout_width="@dimen/paopao_btn_width" android:layout_height="@dimen/dialog_btn_height" android:text="@android:string/ok"/>
+        <com.cootek.smartinput5.func.resource.p055ui.TButton android:textSize="@dimen/dlg_btn_textsize" android:textColor="#ffffff" android:id="@+id/cancel" android:background="@drawable/dlg_btn_right_ctrl" android:layout_width="@dimen/paopao_btn_width" android:layout_height="@dimen/dialog_btn_height" android:text="@android:string/cancel"/>
+    </LinearLayout>
+</LinearLayout>

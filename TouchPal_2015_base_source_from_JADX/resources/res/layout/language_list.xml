@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:title="@string/optpage_language" android:key="root" android:summary="@string/optpage_language_summary">
+    <com.cootek.smartinput5.p066ui.settings.LanguageSwitchModeDialogPreference android:title="@string/language_switch_mode_title" android:key="option_enable_lang_key" android:dialogTitle="@string/language_switch_mode_title" android:dialogLayout="@layout/font_selector"/>
+    <com.cootek.smartinput5.p066ui.settings.CustomizableCheckBoxPreference android:title="@string/optpage_mixedlang" android:key="option_mix_language" android:summary="@string/optpage_mixedlang_summary"/>
+    <com.cootek.smartinput5.p066ui.settings.CustomizableCheckBoxPreference android:title="@string/optpage_enable_curve" android:key="option_curve" android:summary="@string/optpage_enable_curve_summary"/>
+    <com.cootek.smartinput5.func.resource.p055ui.TPreferenceCategory android:title="@string/optpage_language_list" android:key="option_language_list"/>
+</PreferenceScreen>

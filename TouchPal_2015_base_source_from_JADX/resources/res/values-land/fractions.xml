@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="hwfull_keyboard_height">30%p</fraction>
+    <fraction name="hwhalf_keyboard_height">60%p</fraction>
+    <fraction name="key_slide_threshold">7%p</fraction>
+    <fraction name="keyboard_height">52%p</fraction>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fast_candidate_height">40dp</dimen>
+    <dimen name="import_usrdict_no_width">60dp</dimen>
+    <dimen name="import_usrdict_yes_width">100dp</dimen>
+    <dimen name="wizard_btn_text_size">18sp</dimen>
+    <dimen name="wizard_button_height">45dp</dimen>
+    <dimen name="wizard_confirm_button_height">30dp</dimen>
+    <dimen name="wizard_confirm_button_width">80dp</dimen>
+    <dimen name="wizard_progress_margin">5dp</dimen>
+    <dimen name="wizard_seekbar_height">30dp</dimen>
+    <dimen name="wizard_seekbar_margin">30dp</dimen>
+    <dimen name="wizard_thumb_height">25dp</dimen>
+    <dimen name="wizard_thumb_margin">20dp</dimen>
+    <dimen name="wizard_thumb_width">3dp</dimen>
+    <dimen name="wizard_title_height">40dp</dimen>
+    <dimen name="wizard_title_margin">20dp</dimen>
+    <dimen name="wizard_title_text_size">20dp</dimen>
+</resources>

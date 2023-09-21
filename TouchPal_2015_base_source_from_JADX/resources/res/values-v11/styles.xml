@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Dialog">
+    </style>
+    <style name="NoTitleBar">
+    </style>
+    <style name="Preference">
+    </style>
+    <style name="SearchPopup">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowTitleSize">@dimen/search_top_gap</item>
+        <item name="android:windowTitleBackgroundStyle">@style/SearchTitleBackground</item>
+        <item name="android:windowAnimationStyle">@style/SearchActivityAnimation</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:fadingEdgeLength">@dimen/search_fading_edge_length</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="SearchToLink.Preview">
+        <item name="android:actionBarStyle">@style/SearchToLink.Preview.Actionbar</item>
+    </style>
+    <style name="ThemeLight">
+    </style>
+</resources>

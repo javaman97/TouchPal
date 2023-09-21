@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:key="shortcut_input">
+    <com.cootek.smartinput5.p066ui.settings.AddShortcutPreference android:title="@string/optpage_add_shortcut" android:key="AddShortcut" android:summary="@string/optpage_add_shortcut_summary"/>
+    <com.cootek.smartinput5.p066ui.settings.AddShortcutPreference android:title="@string/optpage_add_shortcut" android:key="AddShortcutWubi" android:summary="@string/optpage_add_shortcut_wubi_summary"/>
+    <com.cootek.smartinput5.func.resource.p055ui.TPreferenceCategory android:title="@string/optpage_shortcut_list" android:key="ShortcutList"/>
+</PreferenceScreen>

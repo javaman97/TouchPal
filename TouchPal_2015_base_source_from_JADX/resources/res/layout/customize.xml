@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:key="root">
+    <com.cootek.smartinput5.func.resource.p055ui.TPreferenceCategory android:title="@string/optpage_customize_symbol_zh" android:key="cn">
+        <com.cootek.smartinput5.p066ui.settings.CustomizeSymbolPreference android:key="1"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizeSymbolPreference android:key="2"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizeSymbolPreference android:key="3"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizeSymbolPreference android:key="4"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizeSymbolPreference android:key="5"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizeSymbolPreference android:key="6"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizeSymbolPreference android:key="7"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizeSymbolPreference android:key="8"/>
+    </com.cootek.smartinput5.func.resource.p055ui.TPreferenceCategory>
+    <com.cootek.smartinput5.func.resource.p055ui.TPreferenceCategory android:title="@string/optpage_customize_symbol_en" android:key="en">
+        <com.cootek.smartinput5.p066ui.settings.CustomizeSymbolPreference android:key="9"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizeSymbolPreference android:key="10"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizeSymbolPreference android:key="11"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizeSymbolPreference android:key="12"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizeSymbolPreference android:key="13"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizeSymbolPreference android:key="14"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizeSymbolPreference android:key="15"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizeSymbolPreference android:key="16"/>
+    </com.cootek.smartinput5.func.resource.p055ui.TPreferenceCategory>
+    <com.cootek.smartinput5.func.resource.p055ui.TPreferenceCategory>
+        <com.cootek.smartinput5.p066ui.settings.CustomizeSymbolDefaultPreference android:title="@string/optpage_customize_default_set" android:key="customize_default_set"/>
+    </com.cootek.smartinput5.func.resource.p055ui.TPreferenceCategory>
+</PreferenceScreen>

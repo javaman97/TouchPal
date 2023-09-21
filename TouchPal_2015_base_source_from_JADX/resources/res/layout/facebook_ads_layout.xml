@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/ads_frame" android:background="@android:color/transparent" android:paddingLeft="3dp" android:paddingRight="3dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/sponsor_bg_black" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:padding="10dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/func_logo"/>
+                <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/sponsor_title_text_size" android:textColor="#ffffff" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/sponsor_title" android:layout_width="match_parent" android:layout_height="@dimen/skin_page_btn_height" android:maxLines="2"/>
+            </LinearLayout>
+            <RelativeLayout android:id="@+id/sponsor_icon_frame" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/sponsor_banner" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/cat_progress" android:scaleType="fitCenter" android:layout_centerInParent="true"/>
+            </RelativeLayout>
+            <include layout="@layout/ads_rating_layout"/>
+        </LinearLayout>
+        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/skin_preview_btn_text_size" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/sponsor_download" android:background="@drawable/sponsor_btn_bg" android:layout_width="match_parent" android:layout_height="@dimen/sponsor_skin_btn_height" android:text="@string/sponsor_go"/>
+    </LinearLayout>
+    <View android:background="@drawable/sponsor_tag" android:layout_width="61dp" android:layout_height="17dp" android:layout_marginTop="50dp" android:layout_alignTop="@+id/ads_frame"/>
+</RelativeLayout>

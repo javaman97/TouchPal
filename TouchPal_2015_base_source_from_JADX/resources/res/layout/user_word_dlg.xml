@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/advertisement_frame" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textColor="@color/dlg_list_item_title_textcolor" android:id="@+id/advertisement" android:background="@drawable/bg_dialog_btn_ctrl" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <View android:id="@+id/divider" android:background="@drawable/paopao_divider" android:layout_width="match_parent" android:layout_height="@dimen/divider_height"/>
+    </LinearLayout>
+    <ScrollView android:id="@+id/contact_frame_scroll" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:id="@+id/contact_frame" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@+id/contact_info_frame" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/contact_detail_frame" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/edit_userword_frame" android:paddingTop="@dimen/dialog_item_padding_vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:background="@color/paopao_button_line_color" android:layout_width="match_parent" android:layout_height="2dp"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.cootek.smartinput5.func.resource.p055ui.TButton android:textSize="@dimen/dlg_btn_textsize" android:textColor="@color/paopao_button_text_color" android:id="@+id/higher" android:background="@drawable/bg_dialog_btn_ctrl" android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/paopao_btn_height" android:text="@string/userword_priority_higher" android:singleLine="false" android:layout_weight="1"/>
+            <View android:id="@+id/adjust_userword_divider" android:background="@color/paopao_button_line_color" android:layout_width="2dp" android:layout_height="match_parent"/>
+            <com.cootek.smartinput5.func.resource.p055ui.TButton android:textSize="@dimen/dlg_btn_textsize" android:textColor="@color/paopao_button_text_color" android:id="@+id/lower" android:background="@drawable/bg_dialog_btn_ctrl" android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/paopao_btn_height" android:text="@string/userword_priority_lower" android:singleLine="false" android:layout_weight="1"/>
+            <View android:id="@+id/edit_userword_divider" android:background="@color/paopao_button_line_color" android:layout_width="2dp" android:layout_height="match_parent"/>
+            <com.cootek.smartinput5.func.resource.p055ui.TButton android:textSize="@dimen/dlg_btn_textsize" android:textColor="@color/paopao_button_text_color" android:id="@+id/delete" android:background="@drawable/bg_dialog_btn_ctrl" android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/paopao_btn_height" android:text="@string/delete_userword" android:singleLine="false" android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

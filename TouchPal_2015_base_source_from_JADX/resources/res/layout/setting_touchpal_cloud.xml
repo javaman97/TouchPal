@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:layout_width="match_parent" android:key="root">
+    <com.cootek.smartinput5.func.resource.p055ui.TPreferenceCategory android:title="@string/optpage_category_cloud_services" android:key="option_category_cloud_services">
+        <com.cootek.smartinput5.p066ui.settings.CustomizablePreference android:title="@string/optpage_backup_sync_screen_title" android:key="option_backup_sync_screen" android:summary="@string/optpage_backup_sync_screen_summary" xmlns:ns1="http://schemas.android.com/apk/res/com.emoji.keyboard.touchpal" ns1:custom_background="@drawable/tag_premium"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizableCheckBoxPreference android:title="@string/optpage_cloud_prediction_title" android:key="option_cloud_prediction" android:summary="@string/optpage_cloud_prediction_summary" xmlns:ns2="http://schemas.android.com/apk/res/com.emoji.keyboard.touchpal" ns2:custom_background="@drawable/tag_premium"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizableCheckBoxPreference android:title="@string/optpage_live_words_title" android:key="option_live_words" android:summary="@string/optpage_live_words_summary"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizableCheckBoxPreference android:title="@string/optpage_only_wifi" android:key="option_service_wifi_only" android:summary="@string/optpage_service_wifi_only_summary"/>
+    </com.cootek.smartinput5.func.resource.p055ui.TPreferenceCategory>
+    <com.cootek.smartinput5.func.resource.p055ui.TPreferenceCategory android:title="@string/optpage_category_personalization" android:key="option_category_personalization">
+        <com.cootek.smartinput5.p066ui.settings.CustomizablePreference android:title="@string/optpage_import_contact" android:key="option_import_contact" android:summary="@string/optpage_import_contact_summary"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomCheckBoxPreference android:title="@string/optpage_learn_SMS_title" android:key="option_learn_sms" android:summary="@string/optpage_learn_SMS_summary" xmlns:ns3="http://schemas.android.com/apk/res/com.emoji.keyboard.touchpal" ns3:custom_view_visible="true" xmlns:ns4="http://schemas.android.com/apk/res/com.emoji.keyboard.touchpal" ns4:custom_view_image_source="@drawable/key_btn_edit_ctrl" xmlns:ns5="http://schemas.android.com/apk/res/com.emoji.keyboard.touchpal" ns5:custom_button_visible="false"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizablePreference android:title="@string/optpage_learn_twitter_title" android:key="option_learn_twitter" android:summary="@string/optpage_learn_twitter_summary"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizablePreference android:key="privacy" android:summary="@string/optpage_privacy_policy_summary"/>
+    </com.cootek.smartinput5.func.resource.p055ui.TPreferenceCategory>
+    <com.cootek.smartinput5.func.resource.p055ui.TPreferenceCategory android:title="@string/optpage_category_dictionary_management" android:key="option_category_manager_dictionary">
+        <com.cootek.smartinput5.p066ui.settings.CustomizablePreference android:title="@string/optpage_cell_dictionary_screen_title" android:key="option_cell_dictionary_screen"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizableCheckBoxPreference android:title="@string/optpage_enable_super_dict" android:key="option_enable_super_dict"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizablePreference android:title="@string/optpage_uninstall_super_dict" android:key="option_uninstall_super_dict"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizablePreference android:title="@string/optpage_manage_user_word" android:key="option_manage_user_word" android:summary="@string/optpage_manage_user_word_summary"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizablePreference android:title="@string/optpage_backup_dic" android:key="option_backup_dictionary" android:summary="@string/optpage_backup_dic_summary"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizablePreference android:title="@string/optpage_restore_dic" android:key="option_restore_dictionary" android:summary="@string/optpage_restore_dic_summary"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizablePreference android:title="@string/optpage_clear_language_data" android:key="option_clear_language_data" android:summary="@string/optpage_clear_language_data_summary"/>
+        <com.cootek.smartinput5.p066ui.settings.CustomizablePreference android:title="@string/optpage_cloud_backup_restore" android:key="option_cloud_backup_restore" android:summary="@string/optpage_cloud_backup_restore_summary"/>
+    </com.cootek.smartinput5.func.resource.p055ui.TPreferenceCategory>
+    <com.cootek.smartinput5.func.resource.p055ui.TPreferenceCategory android:title="@string/account" android:key="option_category_account">
+        <com.cootek.smartinput5.p066ui.settings.CustomizablePreference android:key="option_account_log_op"/>
+    </com.cootek.smartinput5.func.resource.p055ui.TPreferenceCategory>
+</PreferenceScreen>

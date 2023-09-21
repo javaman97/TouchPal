@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:orientation="horizontal" android:id="@+id/guide_entrance_item" android:background="@drawable/bg_guide_entrance_button" android:paddingTop="@dimen/guide_entrance_btn_padding" android:paddingBottom="@dimen/guide_entrance_btn_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+    <ImageView android:id="@+id/option_number_icon" android:paddingLeft="@dimen/guide_btn_number_padding_side_left" android:paddingRight="@dimen/guide_btn_number_padding_side" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+    <View android:id="@+id/option_btn_split" android:background="@color/new_guide_option_btn_split_color" android:layout_width="1dp" android:layout_height="match_parent"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/guide_btn_number_padding_side" android:baselineAligned="false" android:layout_weight="1">
+        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/new_guide_main_title_text_size" android:textColor="@color/new_guide_main_btn_text_color" android:ellipsize="end" android:id="@+id/button_main_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+    </LinearLayout>
+</LinearLayout>

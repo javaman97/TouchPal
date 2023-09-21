@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/commercial_frame" android:background="@color/dialer_recommender_commecial_frame_bg_color" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="3">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/contact_frame" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/contact_img"/>
+            <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/dialer_recommender_contact_hint_text_size" android:textColor="@color/dialer_recommender_normal_text_color" android:id="@+id/import_contact_success" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/dialer_recommender_frame_padding_horizontal" android:paddingRight="@dimen/dialer_recommender_frame_padding_horizontal" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/dialer_recommender_commercial_text_size" android:textColor="@color/dialer_recommender_normal_text_color" android:id="@+id/dialer_recognize_success_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dialer_recommender_btn_padding_vertical"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/check_result_list" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/btn_frame" android:background="@color/dialer_recommender_btn_frame_bg_color" android:paddingLeft="@dimen/dialer_recommender_frame_padding_horizontal" android:paddingTop="@dimen/dialer_recommender_commercial_padding_top" android:paddingRight="@dimen/dialer_recommender_frame_padding_horizontal" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="2">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+            <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/dialer_recommender_commercial_text_size" android:textColor="@color/dialer_recommender_normal_text_color" android:id="@+id/dialer_commercial_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dialer_recommender_commercial_padding_top"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+            <com.cootek.smartinput5.func.resource.p055ui.TButton android:textSize="@dimen/dialer_recommender_btn_text_size" android:textColor="@color/dialer_recommender_btn_text_color" android:id="@+id/download_btn" android:background="@drawable/commercial_highlight_btn_ctrl" android:layout_width="match_parent" android:layout_height="@dimen/dialer_recommender_btn_height" android:text="@string/download_dialer_now" android:onClick="downloadDialer"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

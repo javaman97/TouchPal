@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="guide_dialog_margin_left">20dp</dimen>
+    <dimen name="guide_dialog_margin_top">30dp</dimen>
+    <dimen name="key_padding_inner_bottom">5px</dimen>
+    <dimen name="key_padding_inner_side">4px</dimen>
+    <dimen name="key_padding_outer_bottom">4px</dimen>
+    <dimen name="key_padding_outer_side">3px</dimen>
+    <dimen name="plugin_panel_title_textsize">9dp</dimen>
+    <dimen name="rate_us_stats_content_text_size">28dp</dimen>
+    <dimen name="rate_us_stats_title_text_size">14dp</dimen>
+    <dimen name="drawer_pin_guide_title_text_size">10sp</dimen>
+    <dimen name="plugin_panel_item_padding_bottom">0dp</dimen>
+    <dimen name="plugin_panel_item_padding_left">9dp</dimen>
+    <dimen name="plugin_panel_item_padding_right">9dp</dimen>
+    <dimen name="plugin_panel_item_padding_top">2dp</dimen>
+    <dimen name="share_dialog_content_padding_size">0dp</dimen>
+</resources>

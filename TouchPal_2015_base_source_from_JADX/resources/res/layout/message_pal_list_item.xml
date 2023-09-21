@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="15dp" android:textColor="@color/key_main_text_color" android:gravity="center_vertical" android:id="@+id/text1" android:padding="5dp" android:layout_width="match_parent" android:layout_height="match_parent" android:lines="4"/>
+</LinearLayout>

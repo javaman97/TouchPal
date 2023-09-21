@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="24dp" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="------ Optimize Settings"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/optimize_settings" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="24dp" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="------ Logs"/>
+    <com.cootek.smartinput5.func.resource.p055ui.TCheckBox android:textSize="20dp" android:id="@+id/cb_enable_log" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Enable detail log"/>
+    <RelativeLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="20dp" android:gravity="center" android:id="@+id/log_view_refresh" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Refresh" android:layout_alignParentLeft="true"/>
+        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="20dp" android:gravity="center" android:id="@+id/log_view_clean" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Clean" android:layout_centerInParent="true"/>
+        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="20dp" android:gravity="center" android:layout_gravity="right" android:id="@+id/log_view_export" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Export" android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <ScrollView android:id="@+id/log_view_scroll_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="15dp" android:id="@+id/log_view_content" android:padding="5dp" android:paddingLeft="7dp" android:paddingRight="7dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </ScrollView>
+</LinearLayout>

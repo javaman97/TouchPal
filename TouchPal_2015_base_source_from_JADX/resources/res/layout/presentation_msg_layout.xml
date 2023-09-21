@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/presentation_msg_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.cootek.smartinput5.p066ui.settings.MarqueeTextView android:textSize="@dimen/candidate_textsize" android:ellipsize="marquee" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/presentation_text" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent" android:singleLine="true" android:layout_toLeftOf="@+id/presentation_close" android:marqueeRepeatLimit="marquee_forever"/>
+    <ImageView android:id="@+id/presentation_close" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentRight="true"/>
+</RelativeLayout>

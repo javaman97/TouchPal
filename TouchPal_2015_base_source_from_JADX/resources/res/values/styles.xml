@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CandidateConfirmAnimation">
+        <item name="android:windowEnterAnimation">@anim/candidate_confirm_anim</item>
+    </style>
+    <style name="ClipboardLockBox">
+        <item name="android:button">@drawable/clipboard_item_lock_checkbox</item>
+    </style>
+    <style name="ClipboardLockBoxDark">
+        <item name="android:button">@drawable/clipboard_item_lock_checkbox_dark</item>
+    </style>
+    <style name="ColorPickerDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="Dialog">
+    </style>
+    <style name="DialogAnimationFade">
+        <item name="android:windowEnterAnimation">@anim/yssdk_fade_in_dialog</item>
+        <item name="android:windowExitAnimation">@anim/yssdk_fade_out_dialog</item>
+    </style>
+    <style name="ExplicitAnimation">
+        <item name="android:windowExitAnimation">@anim/explicit_fade_out</item>
+    </style>
+    <style name="ExplicitCloudPopupAnimation">
+        <item name="android:windowEnterAnimation">@anim/explicit_cloud_popup_open</item>
+        <item name="android:windowExitAnimation">@anim/explicit_cloud_popup_close</item>
+    </style>
+    <style name="ExtendPopupAnimation">
+        <item name="android:windowEnterAnimation">@anim/extend_popup_show</item>
+        <item name="android:windowExitAnimation">@anim/extend_popup_disp</item>
+    </style>
+    <style name="FacebookAdsDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="FadeInAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+    </style>
+    <style name="GuideIntroM">
+        <item name="android:windowBackground">@drawable/bg_guide_intro</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/FadeInAnimation</item>
+    </style>
+    <style name="LayoutSelectorPopupAnimation">
+        <item name="android:windowEnterAnimation">@anim/language_selector_show</item>
+    </style>
+    <style name="NewGuideInlineWordAnimation">
+        <item name="android:windowEnterAnimation">@anim/new_guide_inline_word_animation</item>
+    </style>
+    <style name="NoTitleBar">
+    </style>
+    <style name="PopupAnimation">
+        <item name="android:windowEnterAnimation">@anim/popup_show</item>
+        <item name="android:windowExitAnimation">@anim/popup_disp</item>
+    </style>
+    <style name="PopupNormalAnimation">
+        <item name="android:windowEnterAnimation">@anim/popup_normal_show</item>
+        <item name="android:windowExitAnimation">@anim/popup_normal_disp</item>
+    </style>
+    <style name="Preference">
+    </style>
+    <style name="PurchasePage">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+    </style>
+    <style name="RaceMenu">
+        <item name="android:windowEnterAnimation">@anim/up_in</item>
+        <item name="android:windowExitAnimation">@anim/up_out</item>
+    </style>
+    <style name="RateDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="Search.Suggest.Container">
+    </style>
+    <style name="Search.Suggest.Container.Card">
+        <item name="android:background">#ffffff</item>
+    </style>
+    <style name="Search.Suggest.Container.Icon">
+        <item name="android:padding">16dp</item>
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+    </style>
+    <style name="Search.Suggest.Container.Icon.Contact">
+        <item name="android:padding">4dp</item>
+    </style>
+    <style name="Search.Suggest.List">
+        <item name="android:textColor">@color/search_text_color_gray</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Search.TitleText">
+        <item name="android:textColor">@color/search_text_color_gray</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="SearchActivityAnimation">
+        <item name="android:windowEnterAnimation">@anim/search_open</item>
+        <item name="android:windowExitAnimation">@anim/search_close</item>
+        <item name="android:activityOpenEnterAnimation">@anim/search_open</item>
+        <item name="android:activityOpenExitAnimation">@anim/search_close</item>
+        <item name="android:activityCloseEnterAnimation">@anim/search_open</item>
+        <item name="android:activityCloseExitAnimation">@anim/search_close</item>
+    </style>
+    <style name="SearchPopup">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowTitleSize">@dimen/search_top_gap</item>
+        <item name="android:windowTitleBackgroundStyle">@style/SearchTitleBackground</item>
+        <item name="android:windowAnimationStyle">@style/SearchActivityAnimation</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:fadingEdgeLength">@dimen/search_fading_edge_length</item>
+    </style>
+    <style name="SearchTabs">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/search_tab_standard</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="SearchTitleBackground">
+        <item name="android:background">#00000000</item>
+    </style>
+    <style name="SearchToLink.Preview">
+    </style>
+    <style name="SearchToLink.Preview.Actionbar">
+        <item name="android:background">@color/black</item>
+    </style>
+    <style name="ShareDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="SlideSentenceNextwordAnimation">
+        <item name="android:windowExitAnimation">@anim/wave_text_confirm_anim</item>
+    </style>
+    <style name="SlideSentencePopupAnimation">
+        <item name="android:windowEnterAnimation">@anim/explicit_cloud_popup_open</item>
+        <item name="android:windowExitAnimation">@anim/explicit_cloud_popup_close</item>
+    </style>
+    <style name="SlideSentenceTextAnimation">
+        <item name="android:windowEnterAnimation">@anim/wave_text_confirm_anim</item>
+    </style>
+    <style name="SmartSearchPreview">
+        <item name="android:windowEnterAnimation">@anim/smart_search_in</item>
+        <item name="android:windowExitAnimation">@anim/smart_search_out</item>
+    </style>
+    <style name="ThemeLight">
+    </style>
+    <style name="ThemeSkinPage">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="Transparent">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+    </style>
+    <style name="VipCurrentPrice">
+        <item name="android:textSize">@dimen/vip_price_number_current_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/vip_purchase_price_text_color</item>
+    </style>
+    <style name="VipOriginalPrice">
+        <item name="android:textSize">@dimen/vip_price_number_original_size</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@color/vip_purchase_price_title_text_color</item>
+    </style>
+    <style name="emotion_view">
+        <item name="keyboardBackground">@drawable/bg_emo_ctrl</item>
+        <item name="keyBackground">@drawable/key_emo_ctrl</item>
+        <item name="funKeyBackground">@drawable/key_emo_ctrl</item>
+        <item name="mainOnlyTextSize">@dimen/keyboard_main_only_text_size</item>
+        <item name="mainOnlyMinTextSize">@dimen/keyboard_main_only_min_text_size</item>
+        <item name="mainTextSize">@dimen/keyboard_main_text_size</item>
+        <item name="altTextSize">@dimen/keyboard_alt_text_size</item>
+        <item name="mainTextColor">@color/key_main_text_color</item>
+        <item name="altTextColor">@color/key_alt_text_color</item>
+        <item name="funMainTextColor">@color/key_func_text_color</item>
+        <item name="funAltTextColor">@color/key_func_alt_text_color</item>
+    </style>
+    <style name="keyboard_view">
+        <item name="keyBackground">@drawable/key_btn_ctrl</item>
+        <item name="funKeyBackground">@drawable/key_fun_ctrl</item>
+        <item name="funLongPressIcon">@drawable/key_fun_dot_ctrl</item>
+        <item name="normalLongPressIcon">@drawable/key_dot_ctrl</item>
+        <item name="mainOnlyTextSize">@dimen/keyboard_main_only_text_size</item>
+        <item name="mainOnlyMinTextSize">@dimen/keyboard_main_only_min_text_size</item>
+        <item name="mainTextSize">@dimen/keyboard_main_text_size</item>
+        <item name="altTextSize">@dimen/keyboard_alt_text_size</item>
+        <item name="mainTextColor">@color/key_main_text_color</item>
+        <item name="altTextColor">@color/key_alt_text_color</item>
+        <item name="funMainTextColor">@color/key_func_text_color</item>
+        <item name="funAltTextColor">@color/key_func_alt_text_color</item>
+    </style>
+    <style name="smiley_category_view">
+        <item name="funKeyBackground">@drawable/smiley_category_bg_ctrl</item>
+    </style>
+    <style name="smiley_keyboard_view">
+        <item name="keyboardBackground">@drawable/candidate_bar</item>
+        <item name="funKeyBackground">@drawable/key_smiley_fun_ctrl</item>
+    </style>
+    <style name="sym_types_view">
+        <item name="keyBackground">@drawable/key_sym_types_ctrl</item>
+        <item name="funKeyBackground">@drawable/key_sym_types_ctrl</item>
+    </style>
+</resources>

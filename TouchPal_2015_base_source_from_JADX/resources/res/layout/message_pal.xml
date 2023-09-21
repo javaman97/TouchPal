@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:orientation="vertical" android:background="@drawable/bg_keyboard_ctrl" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:background="@drawable/bg_tab_bar" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="24dp" android:textColor="@color/key_main_text_color" android:id="@+id/title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/message_pal_title" android:layout_centerInParent="true"/>
+        <ImageView android:background="@drawable/message_pal_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/title_text" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <TabHost android:id="@android:id/tabhost" android:paddingTop="5dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <FrameLayout android:id="@android:id/tabcontent" android:background="@drawable/bg_keyboard_ctrl" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <HorizontalScrollView android:layout_width="wrap_content" android:layout_height="match_parent" android:fillViewport="true" android:layout_weight="1">
+                    <TabWidget android:id="@android:id/tabs" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                </HorizontalScrollView>
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="match_parent">
+                    <ImageView android:id="@+id/buttonExit" android:background="@drawable/url_navigator_key_bg" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/key_fore_back" android:scaleType="center" android:minWidth="48dp" android:minHeight="48dp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </TabHost>
+</LinearLayout>

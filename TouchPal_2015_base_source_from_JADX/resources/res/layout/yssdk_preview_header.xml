@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/yssdk_preview_header_height">
+    <ImageView android:id="@+id/preview_back_icon" android:padding="@dimen/padding_size_1" android:layout_width="@dimen/yssdk_preview_header_height" android:layout_height="match_parent" android:src="@drawable/back_icon"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="@dimen/yssdk_preview_title_width" android:layout_height="match_parent">
+        <TextView android:textSize="@dimen/yssdk_preview_title_textsize_large" android:textColor="@color/white" android:ellipsize="end" android:id="@+id/preview_title" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+        <TextView android:textSize="@dimen/yssdk_preview_subtitle_textsize_large" android:textColor="@color/white" android:ellipsize="end" android:id="@+id/preview_subtitle" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+        <TextView android:textSize="@dimen/yssdk_preview_copyright_textsize" android:textColor="@color/yssdk_gray" android:id="@+id/preview_copyright" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/yssdk_image_copyright_message"/>
+    </LinearLayout>
+</LinearLayout>

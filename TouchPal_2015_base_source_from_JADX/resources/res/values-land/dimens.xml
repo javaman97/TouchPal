@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="curve_keyboard_alt_text_x">4dp</dimen>
+    <dimen name="curve_keyboard_alt_text_y">4dp</dimen>
+    <dimen name="explicit_cloud_popup_arrow_offset">5dp</dimen>
+    <dimen name="explicit_cloud_popup_max_width">480dp</dimen>
+    <dimen name="explicit_cloud_popup_min_width">50dp</dimen>
+    <dimen name="function_bar_btn_width">48dp</dimen>
+    <dimen name="import_usrdict_no_width">54dp</dimen>
+    <dimen name="import_usrdict_yes_width">90dp</dimen>
+    <dimen name="keyboard_alt_text_size">14sp</dimen>
+    <dimen name="layout_switch_zdist">650dp</dimen>
+    <dimen name="shortcut_plugin_bar_arrow_width">14dp</dimen>
+    <dimen name="shortcut_plugin_bar_margin">10dp</dimen>
+    <dimen name="wizard_button_height">48dp</dimen>
+    <dimen name="wizard_confirm_button_height">36dp</dimen>
+    <dimen name="wizard_confirm_button_width">72dp</dimen>
+    <dimen name="wizard_seekbar_height">30dp</dimen>
+    <dimen name="wizard_seekbar_margin">25dp</dimen>
+    <dimen name="wizard_title_height">36dp</dimen>
+    <dimen name="wizard_title_margin">20dp</dimen>
+</resources>

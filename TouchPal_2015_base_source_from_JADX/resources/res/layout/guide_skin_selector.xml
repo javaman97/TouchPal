@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:orientation="vertical" android:id="@+id/guide_finished" android:background="@drawable/new_guide_setting_drawable_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/guide_finished_text_size" android:textColor="@color/new_guide_finished_text_color" android:gravity="center" android:layout_gravity="center" android:id="@+id/select_skin_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/guide_intro_select_skin_title"/>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/guide_skin_selectors" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/guide_skin_selector_row_one" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <View android:layout_width="match_parent" android:layout_height="@dimen/guide_skin_item_gap"/>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/guide_skin_selector_row_two" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@+id/guide_next_panel" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.cootek.smartinput5.func.resource.p055ui.TButton android:textSize="@dimen/new_guide_main_title_text_size" android:textColor="@color/new_guide_main_btn_text_color" android:id="@+id/guide_next_btn" android:background="@drawable/bg_guide_entrance_button" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/guide_finished_btn_margin_side" android:layout_marginRight="@dimen/guide_finished_btn_margin_side" android:text="@string/initial_setting_next"/>
+    </LinearLayout>
+</LinearLayout>

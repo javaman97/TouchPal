@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:orientation="horizontal" android:id="@+id/title_frame" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/tips_content" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/title_frame">
+        <ImageView android:id="@+id/tips_slide_input_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/slide_input_img"/>
+        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/wizard_message_text_size" android:textColor="@color/wizard_text_color" android:gravity="center" android:id="@+id/tips_slide_input_text" android:padding="@dimen/wizard_text_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/wizard_tips_slide_input"/>
+    </LinearLayout>
+</RelativeLayout>

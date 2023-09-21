@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput">
+    <item android:state_enabled="false" android:state_checked="true" android:drawable="@drawable/paopao_checkbox_on_d"/>
+    <item android:state_enabled="false" android:state_checked="false" android:drawable="@drawable/paopao_checkbox_off_d"/>
+    <item android:state_checked="true" android:drawable="@drawable/paopao_checkbox_on"/>
+    <item android:drawable="@drawable/paopao_checkbox_off"/>
+</selector>

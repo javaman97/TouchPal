@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/clipboard_item_content_layout" android:background="@color/clipboard_item_odd_bg" android:layout_width="match_parent" android:layout_height="@dimen/clipboard_item_height">
+        <LinearLayout android:layout_gravity="left" android:orientation="vertical" android:id="@+id/clipboard_item_text_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/clipboard_item_content_textsize" android:textColor="#ffffff" android:ellipsize="end" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/clipboard_item_content" android:background="@drawable/bg_clipboard_item_btn" android:paddingLeft="@dimen/clipboard_item_content_padding_left" android:paddingRight="@dimen/clipboard_item_content_padding_left" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginRight="@dimen/clipboard_menu_btn_size" android:maxLines="2"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/clipboard_item_btn" android:background="@drawable/bg_clipboard_item_btn" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentRight="true">
+            <ImageView android:layout_gravity="right" android:id="@+id/clipboard_item_lock_checkbox" android:paddingTop="@dimen/clipboard_item_checkbox_padding_top" android:paddingRight="@dimen/clipboard_item_checkbox_padding_right" android:layout_width="wrap_content" android:layout_height="0dp" android:scaleType="centerInside" android:layout_weight="1" android:contentDescription="@string/app_name"/>
+            <ImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:paddingRight="@dimen/clipboard_item_btn_margin" android:paddingBottom="@dimen/clipboard_item_btn_margin" android:layout_width="@dimen/clipboard_menu_btn_size" android:layout_height="0dp" android:src="@drawable/btn_clipboard_menu" android:scaleType="fitEnd" android:layout_weight="1" android:contentDescription="@string/app_name"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/clipboard_item_menu_layout" android:background="@drawable/clipboard_menu" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_below="@+id/clipboard_item_content_layout">
+        <RelativeLayout android:id="@+id/clipboard_item_lock_view" android:background="@drawable/bg_clipboard_menu" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_centerInParent="true">
+                <ImageView android:id="@+id/clipboard_item_lock_image" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="@dimen/clipboard_view_menu_height" android:src="@drawable/clipboard_menu_lock" android:scaleType="fitCenter" android:contentDescription="@string/app_name"/>
+                <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/clipboard_menu_text_size" android:textColor="#ffffff" android:gravity="center" android:id="@+id/clipboard_item_lock_text" android:layout_width="wrap_content" android:layout_height="@dimen/clipboard_view_menu_height" android:text="@string/clipboard_menu_lock"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/clipboard_item_remove_view" android:background="@drawable/bg_clipboard_menu" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_centerInParent="true">
+                <ImageView android:id="@+id/clipboard_item_remove_image" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="@dimen/clipboard_view_menu_height" android:src="@drawable/clipboard_menu_remove" android:scaleType="fitCenter" android:contentDescription="@string/app_name"/>
+                <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/clipboard_menu_text_size" android:textColor="#ffffff" android:gravity="center" android:id="@+id/clipboard_item_remove_text" android:layout_width="wrap_content" android:layout_height="@dimen/clipboard_view_menu_height" android:text="@string/clipboard_menu_remove"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:id="@+id/item_line" android:background="@color/clipboard_bar_color" android:layout_width="match_parent" android:layout_height="@dimen/clipboard_item_bottom_bar_width" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

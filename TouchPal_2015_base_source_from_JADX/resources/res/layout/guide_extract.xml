@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:gravity="center" android:background="@drawable/background_new_guide" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/extract_img" android:background="@drawable/extrat_progress" android:layout_width="50dp" android:layout_height="50dp" android:scaleType="fitCenter"/>
+        <TextView android:textColor="#888888" android:id="@+id/extracting_text" android:padding="@dimen/extract_text_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/extract_resource_initializing"/>
+    </LinearLayout>
+</RelativeLayout>

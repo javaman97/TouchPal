@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:gravity="center" android:orientation="horizontal" android:id="@+id/main_entrance_switch_tab_item" android:background="@drawable/bg_main_entrance_tab_ctrl" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/switch_tab_left_split_line" android:background="@color/main_entrance_switch_tab_split_line_color" android:layout_width="1dp" android:layout_height="match_parent" android:layout_marginLeft="0dp" android:layout_marginTop="@dimen/main_entrance_split_line_vertical_padding" android:layout_marginBottom="@dimen/main_entrance_split_line_vertical_padding"/>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+        <ImageView android:layout_gravity="center" android:id="@+id/main_entrance_switch_tab_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5dp" android:scaleType="center"/>
+        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/main_entrance_tab_title_text_size" android:textColor="@drawable/main_entrance_tab_text_color" android:gravity="center" android:id="@+id/main_entrance_switch_tab_text" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

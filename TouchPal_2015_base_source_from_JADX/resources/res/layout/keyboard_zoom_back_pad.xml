@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:id="@+id/keyboard_zoom_back_pad" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/keyboard_zoom_left_pad" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentLeft="true">
+        <RelativeLayout android:id="@+id/left_button_pad" android:layout_width="match_parent" android:layout_height="match_parent">
+            <Button android:layout_gravity="center_vertical" android:id="@+id/left_button" android:background="@drawable/zoombtn_to_left_ctrl" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/keyboard_zoom_right_pad" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentRight="true">
+        <RelativeLayout android:id="@+id/right_button_pad" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.cootek.smartinput5.func.resource.p055ui.TButton android:layout_gravity="center_vertical" android:id="@+id/right_button" android:background="@drawable/zoombtn_to_right_ctrl" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

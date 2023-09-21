@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput">
+    <item android:drawable="@drawable/skin_item_bg_shadow"/>
+    <item android:left="@dimen/skin_page_item_shadow_width" android:top="@dimen/skin_page_item_shadow_top" android:right="@dimen/skin_page_item_shadow_width" android:bottom="@dimen/skin_page_item_shadow_bottom">
+        <selector>
+            <item android:state_pressed="true">
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/skin_page_btn_color_primary"/>
+                    <corners android:radius="3dp"/>
+                    <padding android:left="@dimen/skin_page_item_padding" android:top="@dimen/skin_page_item_padding" android:right="@dimen/skin_page_item_padding" android:bottom="@dimen/skin_page_item_padding"/>
+                </shape>
+            </item>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/skin_page_btn_color_secondary"/>
+                    <corners android:radius="3dp"/>
+                    <padding android:left="@dimen/skin_page_item_padding" android:top="@dimen/skin_page_item_padding" android:right="@dimen/skin_page_item_padding" android:bottom="@dimen/skin_page_item_padding"/>
+                </shape>
+            </item>
+        </selector>
+    </item>
+</layer-list>

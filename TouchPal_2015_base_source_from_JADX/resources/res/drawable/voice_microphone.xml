@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput">
+    <item android:drawable="@drawable/voice_microphone_d" android:maxLevel="0"/>
+    <item android:maxLevel="10000">
+        <layer-list>
+            <item android:drawable="@drawable/voice_microphone_b"/>
+            <item>
+                <clip android:gravity="bottom" android:drawable="@drawable/voice_microphone_f" android:clipOrientation="vertical"/>
+            </item>
+        </layer-list>
+    </item>
+</level-list>

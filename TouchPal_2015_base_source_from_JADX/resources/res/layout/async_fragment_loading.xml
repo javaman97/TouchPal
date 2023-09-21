@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:gravity="center" android:id="@+id/content_frame" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/progress_img" android:layout_width="50dp" android:layout_height="50dp" android:scaleType="fitCenter"/>
+        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textColor="#888888" android:id="@+id/progress_text" android:padding="@dimen/extract_text_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/loading"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput">
+    <item android:id="@+id/menu_send" android:orderInCategory="100" android:title="@string/yssdk_menu_send"/>
+    <item android:id="@+id/menu_copy" android:orderInCategory="100" android:title="@string/yssdk_menu_copy"/>
+    <item android:id="@+id/menu_open" android:orderInCategory="100" android:title="@string/yssdk_menu_open"/>
+</menu>

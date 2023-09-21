@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.cootek.smartinput5.func.resource.p055ui.TTextView android:id="@+id/long_press_delay" android:paddingLeft="7dp" android:paddingTop="7dp" android:paddingBottom="7dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <SeekBar android:id="@+id/long_press_seekbar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/seek_bar_margin" android:layout_marginRight="@dimen/seek_bar_margin" android:progress="10"/>
+</LinearLayout>

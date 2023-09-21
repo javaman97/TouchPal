@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:gravity="center_vertical" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/skin_item" android:background="@drawable/skin_item_bg" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@+id/skin_preview_frame" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/preview" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY"/>
+            <View android:id="@+id/skin_item_extra_mark" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/skin_item_mark" android:paddingTop="@dimen/skin_page_text_padding" android:paddingBottom="@dimen/skin_page_text_padding" android:layout_width="wrap_content" android:layout_height="match_parent" android:scaleType="fitCenter"/>
+                <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/skin_preview_text_size" android:textColor="@drawable/skin_page_text_color_ctrl" android:ellipsize="marquee" android:gravity="center" android:id="@+id/skin_item_title" android:paddingTop="@dimen/skin_page_text_padding" android:paddingBottom="@dimen/skin_page_text_padding" android:fadingEdge="horizontal" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

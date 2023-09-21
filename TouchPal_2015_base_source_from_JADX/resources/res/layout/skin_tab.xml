@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include layout="@layout/skin_activity_title"/>
+        <RelativeLayout android:background="@color/skin_page_title_bg_color" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@+id/skin_tab_frame" android:layout_width="match_parent" android:layout_height="@dimen/skin_tab_height">
+                <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/skin_tab_text_size" android:textColor="@drawable/skin_page_tab_text_color_ctrl" android:gravity="center" android:id="@+id/tab_suggested" android:background="@drawable/skin_tab_bg" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/set_skin_suggested" android:layout_weight="1"/>
+                <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/skin_tab_text_size" android:textColor="@drawable/skin_page_tab_text_color_ctrl" android:gravity="center" android:id="@+id/tab_installed" android:background="@drawable/skin_tab_bg" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/set_skin_installed" android:layout_weight="1"/>
+            </LinearLayout>
+            <View android:id="@+id/tab_cursor" android:background="@color/skin_page_title_text_color" android:layout_width="match_parent" android:layout_height="@dimen/skin_tab_cursor_height" android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <android.support.p001v4.view.ViewPager android:layout_gravity="center" android:id="@+id/skin_tab_view_pager" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <View android:background="@drawable/skin_page_title_shadow" android:layout_width="match_parent" android:layout_height="@dimen/skin_page_shadow_height" android:layout_alignParentTop="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <ImageView android:id="@+id/skin_tab_more_btn" android:background="@drawable/skin_page_more_btn_bg" android:layout_width="@dimen/skin_page_more_btn_width" android:layout_height="@dimen/skin_page_more_btn_height" android:layout_marginRight="@dimen/skin_page_more_btn_margin" android:layout_marginBottom="@dimen/skin_page_more_btn_margin" android:src="@drawable/skin_page_custom_icon" android:scaleType="fitCenter" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+    <include layout="@layout/skin_preview_mask"/>
+</RelativeLayout>

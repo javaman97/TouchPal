@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cootek.smartinput5.func.smileypanel.SmileyScrollFrame xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:background="@color/smiley_frame_bg_color" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include android:id="@+id/scroll_view" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/smiley_scroll_view"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/top_shadow" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <com.cootek.smartinput5.func.smileypanel.SmileyTopShadowView android:id="@+id/top_shadow_content" android:layout_width="match_parent" android:layout_height="@dimen/smiley_top_shadow_height"/>
+    </LinearLayout>
+</com.cootek.smartinput5.func.smileypanel.SmileyScrollFrame>

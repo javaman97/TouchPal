@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android" android:drawable="@drawable/bg_handwrite_half_view_no_padding" android:insetLeft="5dp" android:insetRight="2dp" android:insetTop="2dp" android:insetBottom="2dp"/>

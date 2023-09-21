@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput">
+    <item>
+        <shape android:gravity="center" android:shape="rectangle">
+            <solid android:color="#00000000"/>
+            <size android:height="@dimen/wizard_thumb_height" android:width="@dimen/wizard_thumb_margin"/>
+        </shape>
+    </item>
+    <item android:gravity="center" android:left="@dimen/wizard_thumb_margin" android:right="@dimen/wizard_thumb_margin">
+        <shape android:shape="rectangle">
+            <solid android:color="#ffffffff"/>
+            <size android:height="@dimen/wizard_thumb_height" android:width="@dimen/wizard_thumb_width"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#00000000"/>
+            <size android:height="@dimen/wizard_thumb_height" android:width="@dimen/wizard_thumb_margin"/>
+        </shape>
+    </item>
+</layer-list>

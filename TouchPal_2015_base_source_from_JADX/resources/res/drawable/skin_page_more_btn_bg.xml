@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput">
+    <item android:state_pressed="true">
+        <layer-list>
+            <item android:drawable="@drawable/skin_page_more_btn_shadow" android:top="@dimen/skin_page_more_btn_shadow_height"/>
+            <item android:bottom="@dimen/skin_page_more_btn_shadow_height">
+                <shape android:shape="oval">
+                    <solid android:color="@color/skin_page_btn_color_primary"/>
+                    <size android:height="@dimen/skin_page_more_btn_width" android:width="@dimen/skin_page_more_btn_width"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item android:drawable="@drawable/skin_page_more_btn_shadow" android:top="@dimen/skin_page_more_btn_shadow_height"/>
+            <item android:bottom="@dimen/skin_page_more_btn_shadow_height">
+                <shape android:shape="oval">
+                    <solid android:color="@color/skin_page_btn_color_secondary"/>
+                    <size android:height="@dimen/skin_page_more_btn_width" android:width="@dimen/skin_page_more_btn_width"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

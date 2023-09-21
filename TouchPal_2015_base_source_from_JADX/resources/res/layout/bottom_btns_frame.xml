@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:orientation="vertical" android:id="@+id/bottom_btns_frame" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:background="@color/paopao_button_line_color" android:layout_width="match_parent" android:layout_height="@dimen/paopao_frame_line_width"/>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.cootek.smartinput5.func.resource.p055ui.TButton android:textSize="@dimen/dlg_btn_textsize" android:textColor="@color/paopao_button_text_color" android:id="@+id/left" android:background="@drawable/bg_dialog_btn_ctrl" android:layout_width="match_parent" android:layout_height="@dimen/paopao_btn_height" android:layout_weight="1"/>
+        <View android:id="@+id/bottom_divider" android:background="@color/paopao_button_line_color" android:layout_width="@dimen/paopao_frame_line_width" android:layout_height="match_parent"/>
+        <com.cootek.smartinput5.func.resource.p055ui.TButton android:textSize="@dimen/dlg_btn_textsize" android:textColor="@color/paopao_button_text_color" android:id="@+id/right" android:background="@drawable/bg_dialog_btn_ctrl" android:layout_width="match_parent" android:layout_height="@dimen/paopao_btn_height" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

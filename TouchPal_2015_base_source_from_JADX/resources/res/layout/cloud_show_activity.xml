@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:orientation="vertical" android:background="@color/login_background_color" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="5">
+        <include layout="@layout/touchpal_cloud_page_title"/>
+    </LinearLayout>
+    <com.cootek.smartinput5.func.paopaopanel.SlidePage android:gravity="center" android:id="@+id/touchpal_cloud_slide_wizard" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="3"/>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="5">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.cootek.smartinput5.func.resource.p055ui.TTextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="10"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5dp">
+                    <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/login_view_btn_text_size" android:textColor="#ffffff" android:gravity="center" android:id="@+id/login" android:background="@drawable/login_view_btn_ctrl" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/vip_login" android:singleLine="true" android:layout_weight="1"/>
+                </LinearLayout>
+            </LinearLayout>
+            <com.cootek.smartinput5.func.resource.p055ui.TTextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="10"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

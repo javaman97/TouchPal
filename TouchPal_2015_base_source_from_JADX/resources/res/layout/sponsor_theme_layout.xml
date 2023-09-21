@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:orientation="vertical" android:background="#dddddd" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:background="@color/sponsor_blue_color" android:layout_width="match_parent" android:layout_height="@dimen/skin_page_title_height">
+        <ImageView android:id="@+id/back_btn" android:background="@drawable/sponsor_theme_blue_bg" android:padding="@dimen/skin_page_title_icon_padding" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/skin_page_back_icon"/>
+        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/skin_page_title_text_size" android:textColor="@color/skin_page_title_text_color" android:gravity="left|center_vertical|center_horizontal|center" android:padding="@dimen/skin_page_title_icon_padding" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/app_name" android:layout_toRightOf="@+id/back_btn"/>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/sponsor_bg_white" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/sponsor_skin_preview_padding_horizontal" android:layout_marginTop="@dimen/sponsor_skin_preview_padding_vertical" android:layout_marginRight="@dimen/sponsor_skin_preview_padding_horizontal" android:layout_marginBottom="@dimen/sponsor_skin_preview_padding_vertical">
+        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="20sp" android:textColor="@color/skin_preview_title_color" android:gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="@dimen/skin_page_btn_height" android:singleLine="true"/>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="15dp">
+            <ImageView android:id="@+id/skin_preview_image" android:background="@drawable/sponsor_preview_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <com.cootek.smartinput5.func.resource.p055ui.TButton android:textSize="@dimen/skin_preview_btn_text_size" android:textColor="#ffffff" android:id="@+id/function_btn" android:background="@drawable/sponsor_btn_bg" android:layout_width="match_parent" android:layout_height="@dimen/sponsor_skin_btn_height"/>
+    </LinearLayout>
+    <RelativeLayout android:background="#ffffff" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/skin_preview_title_text_size" android:textColor="@color/skin_preview_title_color" android:gravity="center_vertical" android:id="@+id/sponsor_theme_more" android:padding="@dimen/skin_page_title_icon_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sponsor_more_theme" android:singleLine="true"/>
+        <com.cootek.smartinput5.net.TWebView android:id="@+id/sponsor_webview" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/sponsor_theme_more"/>
+        <ImageView android:id="@+id/progress_img" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/cat_progress" android:scaleType="centerInside" android:layout_alignTop="@+id/sponsor_webview" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <View android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1"/>
+</LinearLayout>

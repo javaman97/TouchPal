@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="humanize_time_days_ago">
+        <item quantity="other">@string/humanize_time_many_days_ago</item>
+        <item quantity="one">@string/humanize_time_one_day_ago</item>
+    </plurals>
+    <plurals name="humanize_time_hours_ago">
+        <item quantity="other">@string/humanize_time_many_hours_ago</item>
+        <item quantity="one">@string/humanize_time_one_hour_ago</item>
+    </plurals>
+    <plurals name="humanize_time_minutes_ago">
+        <item quantity="other">@string/humanize_time_many_minutes_ago</item>
+        <item quantity="one">@string/humanize_time_one_minute_ago</item>
+    </plurals>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cootek.smartinput5.p066ui.FunctionBar xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:orientation="horizontal" android:id="@+id/function_bar" android:layout_width="match_parent" android:layout_height="@dimen/fast_candidate_height">
+    <RelativeLayout android:id="@+id/logo_frame" android:layout_width="@dimen/function_bar_btn_width" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/shortcut_plugin_frame" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/shortcut_plugin_bar" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.cootek.smartinput5.p066ui.control.ShortcutPluginScrollView android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/function_scroll" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:layout_weight="1">
+                <LinearLayout android:orientation="horizontal" android:id="@+id/plugin_bar" android:persistentDrawingCache="all" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            </com.cootek.smartinput5.p066ui.control.ShortcutPluginScrollView>
+        </LinearLayout>
+        <include android:id="@+id/tool_bar_presentation_layout" layout="@layout/presentation_msg_layout"/>
+    </FrameLayout>
+    <RelativeLayout android:gravity="center" android:id="@+id/extral_btn_frame" android:layout_width="@dimen/function_bar_btn_width" android:layout_height="match_parent">
+        <ImageView android:id="@+id/language_btn_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY"/>
+        <ImageView android:id="@+id/language_btn" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter"/>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:id="@+id/search_frame" android:layout_width="@dimen/function_bar_btn_width" android:layout_height="match_parent">
+        <ImageView android:id="@+id/start_search" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@+id/close_frame" android:layout_width="@dimen/function_bar_btn_width" android:layout_height="match_parent">
+        <ImageView android:id="@+id/show_emoji" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter"/>
+    </LinearLayout>
+</com.cootek.smartinput5.p066ui.FunctionBar>

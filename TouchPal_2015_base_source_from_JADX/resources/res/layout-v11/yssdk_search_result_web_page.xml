@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:id="@+id/srp_frame" android:background="@color/yssdk_web_gelato_background_color" android:layout_width="match_parent" android:layout_height="match_parent" android:animateLayoutChanges="true">
+    <include android:id="@+id/spinner_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="0dp" android:layout_marginRight="0dp" layout="@layout/yssdk_progress_spinner_view"/>
+    <include android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/yssdk_result_error_message"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/content" android:background="@color/full_transparent" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.yahoo.mobile.client.share.search.p099ui.SearchResultWebView android:id="@+id/web_search_results" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:orientation="vertical" android:id="@+id/root" android:background="@drawable/more_tab_item_bg_ctrl" android:paddingTop="@dimen/more_panel_item_padding_top" android:paddingBottom="@dimen/more_panel_item_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/img_frame" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:orientation="vertical" android:id="@+id/icon_frame" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true"/>
+        <include layout="@layout/guide_point_tag_view"/>
+    </RelativeLayout>
+    <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/more_panel_title_textsize" android:textColor="@color/more_panel_title_color" android:gravity="top|center_vertical|center_horizontal|center" android:layout_gravity="center_horizontal" android:id="@+id/title" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2"/>
+</LinearLayout>

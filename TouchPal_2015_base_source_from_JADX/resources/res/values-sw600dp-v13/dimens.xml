@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_main_only_text_size">36dp</dimen>
+    <dimen name="bihua_composition_height">52dp</dimen>
+    <dimen name="bihua_composition_size">21dp</dimen>
+    <dimen name="button_textsize">25sp</dimen>
+    <dimen name="candidate_Chs_textsize">28dp</dimen>
+    <dimen name="candidate_min_textsize">20dp</dimen>
+    <dimen name="candidate_small_textsize">22dp</dimen>
+    <dimen name="candidate_textsize">25dp</dimen>
+    <dimen name="cht_keyboard_main_only_text_size">30dp</dimen>
+    <dimen name="cht_phonepad_main_only_text_size">26dp</dimen>
+    <dimen name="emotion_textsize">30dp</dimen>
+    <dimen name="en_lang_sym_textsize">28dp</dimen>
+    <dimen name="fast_candidate_height">58dp</dimen>
+    <dimen name="filter_textsize">28dp</dimen>
+    <dimen name="keyboard_alt_text_size">20dp</dimen>
+    <dimen name="keyboard_alt_text_size_small">18dp</dimen>
+    <dimen name="keyboard_main_only_text_size">29dp</dimen>
+    <dimen name="keyboard_main_text_size">33dp</dimen>
+    <dimen name="keyboard_main_text_size_small">30dp</dimen>
+    <dimen name="language_select_textsize">22dp</dimen>
+    <dimen name="number_keyboard_main_only_text_size">36dp</dimen>
+    <dimen name="paopao_summary_textsize">14dp</dimen>
+    <dimen name="quick_setting_text_size">27dp</dimen>
+    <dimen name="space_button_textsize">20sp</dimen>
+    <dimen name="srp_padding_view">56dp</dimen>
+    <dimen name="voice_hint_text_size">22sp</dimen>
+    <dimen name="voice_text_size">24dp</dimen>
+</resources>

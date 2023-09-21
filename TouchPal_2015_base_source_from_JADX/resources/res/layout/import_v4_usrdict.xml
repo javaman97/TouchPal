@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:gravity="center" android:orientation="vertical" android:id="@+id/layout_select" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/import_usrdict_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/key_fun_logo_ctrl"/>
+        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/wizard_title_text_size" android:textColor="@color/wizard_text_color" android:id="@+id/import_usrdict_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="@string/optpage_restore_dic"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/wizard_button_height" android:layout_marginTop="10dp">
+        <com.cootek.smartinput5.func.resource.p055ui.TButton android:textSize="@dimen/wizard_btn_text_size" android:textColor="@color/wizard_text_color" android:id="@+id/import_usrdict_ok" android:background="@drawable/wizard_btn_background_normal" android:layout_width="@dimen/import_usrdict_yes_width" android:layout_height="@dimen/wizard_confirm_button_height" android:layout_marginRight="10dp" android:text="@string/yes"/>
+        <com.cootek.smartinput5.func.resource.p055ui.TButton android:textSize="@dimen/wizard_btn_text_size" android:textColor="@color/wizard_text_color" android:id="@+id/import_usrdict_cancel" android:background="@drawable/wizard_btn_background_normal" android:layout_width="@dimen/import_usrdict_no_width" android:layout_height="@dimen/wizard_confirm_button_height" android:layout_marginLeft="10dp" android:text="@string/no"/>
+    </LinearLayout>
+</LinearLayout>

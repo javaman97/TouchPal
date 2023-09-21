@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="arabic_pc_backspace_width">16.25%p</fraction>
+    <fraction name="fa_sft_bk_width">12.34%p</fraction>
+    <fraction name="gujarati_sft_bk_width">12.34%p</fraction>
+    <fraction name="hwfull_keyboard_height">22%p</fraction>
+    <fraction name="keyboard_height">44%p</fraction>
+    <fraction name="malayalam_sft_bk_width">12.34%p</fraction>
+    <fraction name="ru_sft_bk_width">13.59%p</fraction>
+    <fraction name="thirteen_key_forth_horizontal_gap">0.94%p</fraction>
+    <fraction name="thirteen_key_horizontal_gap">1.25%p</fraction>
+    <fraction name="thirteen_key_third_horizontal_gap">8.78%p</fraction>
+    <fraction name="thirteen_key_width">7.53%p</fraction>
+    <fraction name="twelve_eleven_second_horizontal_gap">5.31%p</fraction>
+    <fraction name="twelve_key_horizontal_gap">1.25%p</fraction>
+    <fraction name="twelve_key_width">8.28%p</fraction>
+    <fraction name="twelve_shift_third_horizontal_gap">0.94%p</fraction>
+</resources>

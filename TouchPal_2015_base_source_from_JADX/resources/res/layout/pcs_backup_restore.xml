@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:key="pcs_root">
+    <com.cootek.smartinput5.p066ui.settings.CustomizablePreference android:title="@string/optpage_pcs_backup_dic" android:key="option_pcs_backup_dictionary"/>
+    <com.cootek.smartinput5.p066ui.settings.CustomizablePreference android:title="@string/optpage_pcs_restore_dic" android:key="option_pcs_restore_dictionary"/>
+    <com.cootek.smartinput5.p066ui.settings.CustomizablePreference android:title="@string/optpage_pcs_logout" android:key="option_pcs_login_logout"/>
+    <com.cootek.smartinput5.func.resource.p055ui.TPreference android:id="@+id/vendor" android:key="option_pcs_logo"/>
+</PreferenceScreen>

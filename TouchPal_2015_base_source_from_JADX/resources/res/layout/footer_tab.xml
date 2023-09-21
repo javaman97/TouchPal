@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cootek.smartinput5.func.yahoosearch.p063ui.SearchTabView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/search_cursor_height">
+        <ImageView android:gravity="center" android:id="@+id/tab_icon" android:layout_width="match_parent" android:layout_height="0dp" android:scaleType="fitCenter" android:layout_weight="1.5"/>
+        <TextView android:textSize="@dimen/search_button_text_size" android:textColor="@color/search_bottom_text_color" android:gravity="center" android:id="@+id/tab_title" android:layout_width="match_parent" android:layout_height="0dp" android:singleLine="true" android:layout_weight="1"/>
+    </LinearLayout>
+    <View android:id="@+id/search_bar_divider" android:background="@color/search_bottom_divider_color" android:layout_width="@dimen/search_divider_width" android:layout_height="match_parent" android:layout_marginTop="@dimen/search_divider_padding" android:layout_marginBottom="@dimen/search_divider_padding" android:layout_alignParentRight="true"/>
+</com.cootek.smartinput5.func.yahoosearch.p063ui.SearchTabView>

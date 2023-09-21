@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cloud_page_title_padding_top">2dp</dimen>
+    <dimen name="cloud_page_title_text_size">22dp</dimen>
+    <dimen name="guide_app_name_text_size">25dp</dimen>
+    <dimen name="guide_dialog_margin_left">8dp</dimen>
+    <dimen name="guide_dialog_margin_top">10dp</dimen>
+    <dimen name="guide_entrance_btn_padding">8dp</dimen>
+    <dimen name="guide_main_sub_title_text_size">20dp</dimen>
+    <dimen name="guide_privacy_link_bottom_margin">10dp</dimen>
+    <dimen name="guide_skin_enable_img_margin">5dp</dimen>
+    <dimen name="guide_title_text_top_margin">5dp</dimen>
+    <dimen name="key_padding_inner_bottom">2px</dimen>
+    <dimen name="key_padding_inner_side">2px</dimen>
+    <dimen name="key_padding_outer_bottom">1px</dimen>
+    <dimen name="key_padding_outer_side">1px</dimen>
+    <dimen name="rate_us_stats_content_text_size">25dp</dimen>
+    <dimen name="rate_us_stats_title_text_size">12dp</dimen>
+    <dimen name="drawer_pin_guide_title_text_size">20dp</dimen>
+    <dimen name="plugin_panel_item_padding_bottom">0dp</dimen>
+    <dimen name="plugin_panel_item_padding_left">14dp</dimen>
+    <dimen name="plugin_panel_item_padding_right">14dp</dimen>
+    <dimen name="plugin_panel_item_padding_top">3dp</dimen>
+</resources>

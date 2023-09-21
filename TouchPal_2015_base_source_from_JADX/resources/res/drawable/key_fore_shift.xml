@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput">
+    <item android:drawable="@drawable/key_fun_shift_fn" xmlns:ns1="http://schemas.android.com/apk/res/com.emoji.keyboard.touchpal" ns1:state_tri_none="true"/>
+    <item android:drawable="@drawable/key_fun_shift_f1" xmlns:ns2="http://schemas.android.com/apk/res/com.emoji.keyboard.touchpal" ns2:state_tri_toggled="true"/>
+    <item android:drawable="@drawable/key_fun_shift_fa" xmlns:ns3="http://schemas.android.com/apk/res/com.emoji.keyboard.touchpal" ns3:state_tri_lock="true"/>
+</selector>

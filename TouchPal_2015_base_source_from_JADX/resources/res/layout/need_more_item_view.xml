@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:orientation="vertical" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/need_more_item_height">
+        <ImageButton android:id="@+id/need_more_btn" android:background="#00000000" android:padding="5dp" android:layout_width="@dimen/need_more_btn_width" android:layout_height="match_parent" android:layout_marginRight="@dimen/need_more_item_padding_right" android:src="@drawable/btn_clipboard_premium" android:scaleType="fitCenter" android:layout_alignParentRight="true" android:contentDescription="@string/app_name"/>
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/clipboard_item_content_padding_left" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginRight="@dimen/need_more_btn_width" android:layout_alignRight="@+id/need_more_btn" android:layout_alignParentLeft="true">
+            <com.cootek.smartinput5.p066ui.FittedTextView android:textSize="@dimen/need_more_item_summary_textsize" android:textColor="@color/need_more_text_color" android:gravity="left|center_vertical|center_horizontal|center" android:layout_gravity="center_vertical" android:id="@+id/free_storage_message" android:layout_width="match_parent" android:layout_height="0dp" android:text="@string/storage_full_summary" android:layout_weight="1"/>
+            <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/need_more_item_detail_textsize" android:textColor="@color/need_more_text_color" android:gravity="top|left|center_vertical|center_horizontal|center" android:id="@+id/purchase_premium_message" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0dp" android:text="@string/storage_full_detail" android:maxLines="2" android:layout_weight="0.6"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

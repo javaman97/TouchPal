@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yahoo.mobile.client.share.search.p099ui.container.SearchScrollableTabView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:gravity="center" android:layout_gravity="bottom" android:id="@+id/search_pager_tab_content" android:layout_width="match_parent" android:layout_height="@dimen/tab_bar_height">
+    <HorizontalScrollView android:id="@+id/scrollable_tab_container" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="@dimen/tab_bar_height">
+        <LinearLayout android:orientation="vertical" android:background="#f5f4f6" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:gravity="left" android:orientation="horizontal" android:id="@+id/search_pager_tab_indicator_container" android:background="@color/white" android:layout_width="match_parent" android:layout_height="3dp">
+                <View android:id="@+id/search_pager_tab_indicator" android:background="@color/search_tab_selected" android:layout_width="0dp" android:layout_height="match_parent"/>
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/search_pager_tab_label_container" android:background="#f5f4f6" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+</com.yahoo.mobile.client.share.search.p099ui.container.SearchScrollableTabView>

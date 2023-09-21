@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:title="@string/optpage_language_inte" android:key="root">
+    <com.cootek.smartinput5.p066ui.settings.LanguageSwitchModeDialogPreference android:title="@string/language_switch_mode_title" android:key="option_enable_lang_key" android:dialogTitle="@string/language_switch_mode_title" android:dialogLayout="@layout/font_selector"/>
+    <com.cootek.smartinput5.p066ui.settings.CustomCheckBoxPreference android:title="@string/optpage_mixedlang_inte" android:key="option_mix_language" android:summary="@string/optpage_mixedlang_summary" xmlns:ns1="http://schemas.android.com/apk/res/com.emoji.keyboard.touchpal" ns1:custom_view_visible="true" xmlns:ns2="http://schemas.android.com/apk/res/com.emoji.keyboard.touchpal" ns2:custom_view_image_source="@drawable/key_btn_edit_ctrl" xmlns:ns3="http://schemas.android.com/apk/res/com.emoji.keyboard.touchpal" ns3:custom_button_visible="false"/>
+    <com.cootek.smartinput5.func.resource.p055ui.TPreferenceCategory android:title="@string/optpage_installed_languages" android:key="option_installed_language_list"/>
+    <com.cootek.smartinput5.func.resource.p055ui.TPreferenceCategory android:title="@string/optpage_available_languages" android:key="option_available_language_list"/>
+</PreferenceScreen>

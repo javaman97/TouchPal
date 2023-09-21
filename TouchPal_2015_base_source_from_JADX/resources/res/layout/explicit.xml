@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:gravity="bottom" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent">
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@+id/explicit_bg_layout" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@+id/explicit_text_line" android:background="@drawable/bg_explicit_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/explicit_cloud_more_margin_left">
+            <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/bihua_composition_size" android:textColor="#ff000000" android:ellipsize="start" android:gravity="center" android:id="@+id/explicit_cloud_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/explicit_cloud_text_min_width" android:singleLine="true"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/explicit_exp_text_line" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/bihua_composition_size" android:textColor="#ffffff" android:ellipsize="start" android:gravity="bottom" android:id="@+id/explicit_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+                <ImageView android:id="@+id/explicit_clouding_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout android:id="@+id/explicit_more_cloud_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:background="@drawable/explicit_cloud_more_line" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <ImageView android:id="@+id/explicit_more_cloud_icon" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

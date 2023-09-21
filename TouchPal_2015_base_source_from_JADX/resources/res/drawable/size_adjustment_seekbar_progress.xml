@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput">
+    <item>
+        <shape android:gravity="center" android:shape="rectangle">
+            <solid android:color="#00000000"/>
+            <size android:height="@dimen/wizard_progress_margin"/>
+        </shape>
+    </item>
+    <item android:gravity="center" android:top="@dimen/wizard_progress_margin" android:bottom="@dimen/wizard_progress_margin">
+        <layer-list>
+            <item>
+                <shape android:gravity="center" android:shape="rectangle">
+                    <solid android:color="#00000000"/>
+                    <size android:width="@dimen/wizard_progress_margin"/>
+                </shape>
+            </item>
+            <item android:gravity="center" android:left="@dimen/wizard_progress_margin" android:right="@dimen/wizard_progress_margin">
+                <shape android:shape="rectangle">
+                    <solid android:color="#ffffffff"/>
+                    <stroke android:width="1dp" android:color="#ffffff"/>
+                    <corners android:radius="8dp"/>
+                </shape>
+            </item>
+            <item>
+                <shape android:gravity="center" android:shape="rectangle">
+                    <solid android:color="#00000000"/>
+                    <size android:width="@dimen/wizard_progress_margin"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <shape android:gravity="center" android:shape="rectangle">
+            <solid android:color="#00000000"/>
+            <size android:height="@dimen/wizard_progress_margin"/>
+        </shape>
+    </item>
+</layer-list>

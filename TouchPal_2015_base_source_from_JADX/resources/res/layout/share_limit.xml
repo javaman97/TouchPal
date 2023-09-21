@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/share_frame" android:padding="8dp" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="@dimen/dialog_btn_height">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/text_frame" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textAppearance="?android:attr/textAppearanceMedium" android:gravity="center_vertical" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="?android:attr/textColorSecondary" android:id="@+id/summary" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/share_img" android:padding="0px" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="8dp" android:src="@drawable/key_share_option_ctrl" android:scaleType="center"/>
+</LinearLayout>

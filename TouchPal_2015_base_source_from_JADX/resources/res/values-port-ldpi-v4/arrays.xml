@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="portrait_keyboard_size_scale_large_model">
+        <item>20</item>
+        <item>12</item>
+        <item>@null</item>
+        <item>-8</item>
+        <item>-16</item>
+    </array>
+    <array name="portrait_keyboard_size_scale_middle_model">
+        <item>18</item>
+        <item>9</item>
+        <item>@null</item>
+        <item>-6</item>
+        <item>-12</item>
+    </array>
+    <array name="portrait_keyboard_size_scale_small_model">
+        <item>15</item>
+        <item>7</item>
+        <item>@null</item>
+        <item>-5</item>
+        <item>-10</item>
+    </array>
+</resources>

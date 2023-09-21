@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:gravity="center" android:background="@color/image_previewer_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ProgressBar android:id="@+id/image_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:attr/progressBarStyleLarge"/>
+    <com.cootek.smartinput5.func.yahoosearch.p063ui.SearchImageView android:id="@+id/search_picture_image" android:padding="@dimen/search_image_gallery_padding" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/search_image_gallery_spacing" android:layout_marginRight="@dimen/search_image_gallery_spacing" android:scaleType="fitCenter"/>
+</RelativeLayout>

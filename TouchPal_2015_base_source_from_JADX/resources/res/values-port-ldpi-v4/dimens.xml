@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="import_usrdict_no_width">54dp</dimen>
+    <dimen name="import_usrdict_yes_width">90dp</dimen>
+    <dimen name="wizard_button_height">48dp</dimen>
+    <dimen name="wizard_confirm_button_height">36dp</dimen>
+    <dimen name="wizard_confirm_button_width">72dp</dimen>
+    <dimen name="wizard_seekbar_height">30dp</dimen>
+    <dimen name="wizard_seekbar_margin">30dp</dimen>
+    <dimen name="wizard_title_height">46dp</dimen>
+    <dimen name="wizard_title_margin">10dp</dimen>
+    <dimen name="wizard_title_text_size">20dp</dimen>
+</resources>

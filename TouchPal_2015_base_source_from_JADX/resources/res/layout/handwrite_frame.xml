@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/main_frame" android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:layout_gravity="top|left|center_vertical|center_horizontal|center" android:background="#908f8f" android:layout_width="3dp" android:layout_height="12dp"/>
+        <View android:layout_gravity="top|left|center_vertical|center_horizontal|center" android:background="#908f8f" android:layout_width="12dp" android:layout_height="3dp"/>
+        <View android:layout_gravity="top|right|center_vertical|center_horizontal|center" android:background="#908f8f" android:layout_width="3dp" android:layout_height="12dp"/>
+        <View android:layout_gravity="top|right|center_vertical|center_horizontal|center" android:background="#908f8f" android:layout_width="12dp" android:layout_height="3dp"/>
+        <View android:layout_gravity="bottom|left|center_vertical|center_horizontal|center" android:id="@+id/left_bottom_border_1" android:background="#908f8f" android:layout_width="3dp" android:layout_height="12dp"/>
+        <View android:layout_gravity="bottom|left|center_vertical|center_horizontal|center" android:id="@+id/left_bottom_border_2" android:background="#908f8f" android:layout_width="12dp" android:layout_height="3dp"/>
+        <View android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:background="#908f8f" android:layout_width="3dp" android:layout_height="12dp"/>
+        <View android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:background="#908f8f" android:layout_width="12dp" android:layout_height="3dp"/>
+        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/engine_provider_watermark_text_size" android:gravity="right" android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/watermark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3dp"/>
+    </FrameLayout>
+    <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/cloud_handwrite_recover_button_text_size" android:gravity="center_vertical" android:layout_gravity="bottom|left|center_vertical|center_horizontal|center" android:id="@+id/recover_text" android:paddingRight="6dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cloud_handwrite_recover_button" android:singleLine="true"/>
+</FrameLayout>

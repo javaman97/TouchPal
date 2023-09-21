@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:orientation="vertical" android:background="@color/image_previewer_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/search_browser_top_bar"/>
+    <RelativeLayout android:paddingTop="@dimen/search_image_padding" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <Gallery android:id="@+id/gallery" android:layout_width="match_parent" android:layout_height="match_parent" android:spacing="0dp" android:unselectedAlpha="1"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/search_image_gallery_padding" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/search_image_description_text_size" android:textColor="#ffffff" android:background="@color/search_highlight_color" android:padding="@dimen/search_image_text_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/search_picture_information"/>
+        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/search_image_description_text_size" android:textColor="@color/search_text_color" android:id="@+id/search_picture_description" android:padding="@dimen/search_image_text_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/search_image_text_margin" android:singleLine="true"/>
+        <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/search_image_description_text_size" android:textColor="@color/search_text_color" android:id="@+id/search_picture_url" android:padding="@dimen/search_image_text_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/search_image_text_margin" android:singleLine="true"/>
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/browser_button_frame" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/search_browser_bottom_bar"/>
+        <View android:background="@color/search_bottom_divider_color" android:layout_width="match_parent" android:layout_height="@dimen/search_divider_width"/>
+    </RelativeLayout>
+</LinearLayout>

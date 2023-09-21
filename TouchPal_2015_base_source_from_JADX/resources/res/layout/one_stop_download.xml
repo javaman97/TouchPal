@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:id="@+id/list_frame" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:layout_alignParentTop="true">
+        <ScrollView android:id="@+id/download_list_scroll" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:scrollbarDefaultDelayBeforeFade="2000">
+                <RelativeLayout android:id="@+id/category_lbs_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="5dp" android:layout_marginBottom="8dp">
+                    <com.cootek.smartinput5.func.resource.p055ui.TTextView android:textSize="@dimen/paopao_category_title_textsize" android:textColor="@color/paopao_item_text_color" android:id="@+id/category_lbs_title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true"/>
+                    <ProgressBar android:id="@+id/category_lbs_location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:layout_toRightOf="@+id/category_lbs_title_text" style="@style/Widget.ProgressBar.Small"/>
+                    <com.cootek.smartinput5.func.resource.p055ui.TButton android:id="@+id/btn_location" android:background="@drawable/bg_btn_locate" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginRight="20dp" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+                </RelativeLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/category_lbs" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ListView android:id="@+id/category_lbs_list" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginLeft="@dimen/paopao_list_view_margin" android:layout_marginRight="@dimen/paopao_list_view_margin"/>
+                    <View android:background="@drawable/paopao_list_divider" android:layout_width="match_parent" android:layout_height="3dp"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/category_language" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp">
+                    <ListView android:id="@+id/category_language_list" android:background="@drawable/paopao_list_bg" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginLeft="@dimen/paopao_list_view_margin" android:layout_marginRight="@dimen/paopao_list_view_margin"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/category_celldict_dialect" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ListView android:id="@+id/category_celldict_dialect_list" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginLeft="@dimen/paopao_list_view_margin" android:layout_marginRight="@dimen/paopao_list_view_margin"/>
+                    <View android:background="@drawable/paopao_list_divider" android:layout_width="match_parent" android:layout_height="3dp"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/category_celldict_common" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ListView android:id="@+id/category_celldict_common_list" android:layout_width="match_parent" android:layout_height="200px" android:layout_marginLeft="@dimen/paopao_list_view_margin" android:layout_marginRight="@dimen/paopao_list_view_margin"/>
+                    <View android:background="@drawable/paopao_list_divider" android:layout_width="match_parent" android:layout_height="3dp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.cootek.smartinput" android:background="@color/search_window_background_color" android:layout_width="match_parent" android:layout_height="@dimen/search_top_gap">
+    <ImageView android:id="@+id/cat_view" android:layout_width="match_parent" android:layout_height="40dp" android:src="@drawable/cat_anim" android:scaleType="fitCenter" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+</RelativeLayout>
